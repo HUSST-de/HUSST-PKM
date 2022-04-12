@@ -1,0 +1,6 @@
+Name;Typ;Daten;Ausnahme;Nachfolger
+s2;B;h2ps_berechneStandort;;s3
+s3;B;h2ps_berechneBediengebiet;;s4
+s4;B;h2ps_berechneStartpunkt;;s5
+s5;B;h2ps_berechneStartpunktliste;;s6
+s6;B;h2ps_berechneZielpunktliste;;

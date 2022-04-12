@@ -1,0 +1,72 @@
+<pvtm xmlns="http://vdv/ka/pkm/2">
+
+
+	<datentabelle-pool xmlns="http://vdv/ka/pkm/2" key="25">
+
+		<item xmlns="http://vdv/ka/pkm/2">
+			<nr>2</nr>
+			<name>HUSST-Ortspunkt-ReferenzExtern-zu-PKMTarifpunktNr-Bediengebiet</name>
+			<datensatzkey>
+				<text>101</text> 
+			</datensatzkey>
+			<datensatzvalue>
+				<liste>
+					<zahl>1000101</zahl>
+					<!-- XML-Tarifpunkt-Item.Nr (Husst.Ortspunkt) -->
+					<zahl>0</zahl>
+					<!-- ID Bediengebiet -->
+				</liste>
+			</datensatzvalue>
+		</item>
+
+		<item xmlns="http://vdv/ka/pkm/2">
+			<nr>4</nr>
+			<name>HUSST-Ortspunkt-Typ-Nr-zu-PKMTarifpunktNr-Bediengebiet</name>
+			<datensatzkey>
+				<liste>
+					<zahl>1</zahl>
+					<zahl>101</zahl>
+				</liste>
+			</datensatzkey>
+			<datensatzvalue>
+				<liste>
+					<zahl>1000101</zahl>
+					<zahl>0</zahl>
+				</liste>
+			</datensatzvalue>
+		</item>
+	</datentabelle-pool>
+
+	<tarifpunkt-pool xmlns="http://vdv/ka/pkm/2" key="56">
+		<item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+			<!--62-->
+			<nr>1000101</nr>
+			<name>Haltestelle A1 (HUSST Ortspunkt)</name>
+			<text-matrix/>
+			<geobezug/>
+			<typ>Ortspunkttyp_1</typ>
+			<ortsbezug/>
+		</item>
+
+		<item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+			<!--86-->
+			<nr>3009103</nr>
+			<name>103 (HUSST Tarifrelevanterpunkt)</name>
+			<text-matrix/>
+			<geobezug/>
+			<typ>Tarifrelevanterpunkt</typ>
+			<ortsbezug/>
+		</item>
+
+	</tarifpunkt-pool>
+
+	<zuordnungsdaten-matrix xmlns="http://vdv/ka/pkm/2">
+		<typ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Zuordnungsdatentyp-Entry" ref="107">
+			<bezug ref="106">
+				<von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="62">
+					<zu>86</zu>
+				</von>
+			</bezug>
+		</typ>
+	</zuordnungsdaten-matrix>
+</pvtm>

@@ -1,4 +1,18 @@
 Name;Signatur;Kategorie;Typ;Beschreibung;Code
+h2ps_berechneStandort;;Husst BerechnungsSchritt Funktionen;H;;"{:setzeVariable4002(Standort
+        ; wenn3016( istGleich3014(alsText3091(leseEingangsparameter4026(VerkaufsStandortTyp));""ReferenzExtern"")
+			; H2Pf_2_ermittleOrtspunktMitRefExt(leseEingangsparameter4026(VerkaufsStandortSchluessel))
+			; wenn3016( istGleich3014(alsText3091(leseEingangsparameter4026(VerkaufsStandortTyp));""IBISnr"")
+            	; H2Pf_2_ermittleOrtspunktMitRefExt(leseEingangsparameter4026(VerkaufsStandortSchluessel))
+				; liefereAusnahme3042(undefiniert)
+			)
+        )
+    )
+}"
+h2ps_berechneBediengebiet;;Husst BerechnungsSchritt Funktionen;H;;{:H2Pf_2_ermittleBediengebietVonOrtspunkt(leseVariable4001(Standort))}
+h2ps_berechneStartpunkt;;Husst BerechnungsSchritt Funktionen;H;;"{:setzeVariable4002(Startpunkt;H2Pf_3_ermittleStartpunktZuOrtspunkt(leseVariable4001(Standort)))}"
+h2ps_berechneStartpunktliste;;Husst BerechnungsSchritt Funktionen;H;;"{:H2Pf_4_ermittleStartpunkte(10/OTPTyp Start/;leseVariable4001(ID_Bediengebiet))}"
+h2ps_berechneZielpunktliste;;Husst BerechnungsSchritt Funktionen;H;;"{:H2Pf_5_ermittleZielpunkte(20/OTPTyp Ziel/; leseVariable4001(ID_Bediengebiet))}"
 setzeVariable4002;;PkmFachfunktionen;S;;4002
 leseVariable4001;;PkmFachfunktionen;S;;4001
 leseEingangsparameter4026;;PkmFachfunktionen;S;;4026
@@ -17,14 +31,6 @@ listeLaenge3072;;PkmFachfunktionen;S;;3072
 zahlSubtrahiert3218;;PkmFachfunktionen;S;;3218
 ermittleTarifpunkt5035;;PkmFachfunktionen;S;;5035
 textVerkettet3068;;PkmFachfunktionen;S;;3068
-H2Pf_1_ermittleStandort;;Husst Fachfunktionen;H;;"{:setzeVariable4002(Standort
-        ; H2Pf_806_ermittleTarifpunktZuExterneReferenz(
-            ""Ortspunkttyp_1""
-            ; leseEingangsparameter4026(VerkaufsStandortTyp)
-            ; leseEingangsparameter4026(VerkaufsStandortSchluessel)
-        )
-    )
-}"
 H2Pf_806_ermittleTarifpunktZuExterneReferenz;"(Text/Zahl/Null;Text/Zahl/Null;Text/Zahl/Null;):TarifpunktItem/Null";Husst Fachfunktionen;H;;"{HusstTyp;ReferenzName;ReferenzWert
 	:ermittleTarifpunkt5035(
         ermittleWertZuSchluesselVonDatentabelle5070(
@@ -35,38 +41,20 @@ H2Pf_806_ermittleTarifpunktZuExterneReferenz;"(Text/Zahl/Null;Text/Zahl/Null;Tex
 }"
 H2Pf_805_ermittleSchluesselZuNameWertPaaren;"Schluessel: NULL, Text
 ;Namen : NULL, {Text / Zahl}[]; 
-Werte : NULL, {Text / Zahl}[] -> Text";Husst Fachfunktionen;H;;"{Schluessel;Namen;Werte:
-	wenn3016(
-        istGleich3014(0; listeLaenge3072($Namen))
-        ; $Schluessel
-        ; H2Pf_805_ermittleSchluesselZuNameWertPaaren( /rekursion/
-            textVerkettet3068($Schluessel;""/"";listeElement3071($Namen; 1); ""/=/""; listeElement3071($Werte; 1))
-            ; listeAbschnitt3074($Namen; 2; zahlSubtrahiert3218(listeLaenge3072($Namen); 1))
-            ; listeAbschnitt3074($Werte; 2; zahlSubtrahiert3218(listeLaenge3072($Werte); 1))
-    	)
-	)
-}"
-H2Pf_2_ermittleBediengebietVonOrtspunkt;NULL,Ortspunkt: Xml-Tarifpunkt-Item ->NULL,Zahl;Husst Fachfunktionen;H;;"{Ortspunkt:
-	setzeVariable4002(<ID_Bediengebiet>
-        ;ermittleWertZuSchluesselVonDatentabelle5070(
-            ermittleDatentabelle5262(""%ReferenzExternZuBediengebiet%"")
-            ; $Ortspunkt
-        )
-    )
-}"
-H2Pf_3_ermittleStartpunktZuOrtspunkt;"NULL,Ortspunkt: Xml-Tarifpunkt-Item 
-NULL,ID_OTPTyp: Zahl 
-NULL,ID_Bediengebiet: Zahl -> NULL,Xml-Tarifpunkt-Item";Husst Fachfunktionen;H;;"{Ortspunkt;ID_OTPTyp;ID_Bediengebiet:
- setzeVariable4002(Startpunkt
+Werte : NULL, {Text / Zahl}[] -> Text";Husst Fachfunktionen;H;;{:undefiniert}
+H2Pf_2_ermittleBediengebietVonOrtspunkt;NULL,Ortspunkt: Xml-Tarifpunkt-Item ->NULL,Zahl;Husst Fachfunktionen;H;;"{Ortspunkt:  / Ortspunkt [TarifpunktNr,ID_Bediengebiet] /
+	setzeVariable4002(ID_Bediengebiet
         ;listeElement3071(
-            ermittleZutarifpunkteZuZuordnungen5272(
-                $Ortspunkt
-                ; H2Pf_800_ermittleZuordnungstyp(""OrtspunktZuTarifrelevanterpunkt""; $ID_OTPTyp; $ID_Bediengebiet)
-                ; ""%Alle%""        
-            )
-            ; 1
+			$Ortspunkt
+			; 2
         )
     )
+}"
+H2Pf_3_ermittleStartpunktZuOrtspunkt;"Ortspunkt: [Xml-Tarifpunkt-Item.Nr;ID_Bediengebiet]";Husst Fachfunktionen;H;;"{Ortspunkt:
+	ermittleZutarifpunkteZuZuordnungen5272(ermittleTarifpunkt5035(listeElement3071($Ortspunkt;1))
+		; HUSST-Ortspunkt-zu-Tarifrelevanterpunkt-mit-OTPTyp-1-und-Bediengebiet-1 /zuordnungstyp %HUSST-Ortspunkt-zu-Tarifrelevanterpunkt-mit-OTPTyp-1-und-Bediengebiet-1%/
+		; <Alle Verkehrsmittel> /verkehrsmittellinienbezug %Alle Verkehrsmittel% const/
+	)
 }"
 ermittleZutarifpunkteZuZuordnungen5272;;PkmFachfunktionen;S;;5272
 H2Pf_800_ermittleZuordnungstyp;HusstZuordnung: NULL / Text ReferenzNamen:  NULL / {Text / Zahl} / {Text / Zahl}[] ReferentWerte:  NULL / {Text / Zahl} / {Text / Zahl}[] -> NULL,XML-Zuordnungstyp-Item;Husst Fachfunktionen;H;;"{HusstZuordnung;ReferenzNamen;ReferenzWerte:
@@ -128,10 +116,20 @@ H2Pf_803_ermittlePunktAuswahlliste;;Husst Fachfunktionen;H;;"{PunkteAuswahl;Huss
     )
 }"
 H2Pf_804_ermittleHusstPunkt;NULL,PunktAuswahl:H2Ps_PunktAuswahlelement ->NULL,XML-Tarifpunkt-Typ;Husst Fachfunktionen;H;liefert eine HusstPunkt zu dem gegebenen PunktAuswahlobjekt oder NULL;{:undefiniert}
-h2ps_berechneStartpunkt;;Husst BerechnungsSchritt Funktionen;H;;"{:H2Pf_3_ermittleStartpunktZuOrtspunkt(leseVariable4001(Standort);10/ID_OTPTyp Start/ ;leseVariable4001(ID_Bediengebiet))}"
-h2ps_berechneBediengebiet;;Husst BerechnungsSchritt Funktionen;H;;{:H2Pf_2_ermittleBediengebietVonOrtspunkt(leseVariable4001(Standort))}
-h2ps_berechneStandort;;Husst BerechnungsSchritt Funktionen;H;;"{: H2Pf_1_ermittleStandort()
-}"
-h2ps_berechneStartpunktliste;;Husst BerechnungsSchritt Funktionen;H;;"{:H2Pf_4_ermittleStartpunkte(10/OTPTyp Start/;leseVariable4001(ID_Bediengebiet))}"
-h2ps_berechneZielpunktliste;;Husst BerechnungsSchritt Funktionen;H;;"{:H2Pf_5_ermittleZielpunkte(20/OTPTyp Ziel/; leseVariable4001(ID_Bediengebiet))}"
 berechneWertMit3216;;PkmFachfunktionen;S;;3216
+H2Pf_2_ermittleOrtspunktMitRefExt;;Husst Fachfunktionen;H;;"{VerkaufsStandortSchluessel:
+ermittleWertZuSchluesselVonDatentabelle5070( 
+			ermittleDatentabelle5262(2 / compilezeitkonstante %HUSST-Ortspunkt-ReferenzExtern-zu-PKMTarifpunktNr-Bediengebiet% /) 
+			; alsText3091( $VerkaufsStandortSchluessel)
+		) 
+}"
+H2Pf_2_ermittleOrtspunktMitIbisNr;;Husst Fachfunktionen;H;;"{VerkaufsStandortSchluessel:
+ermittleWertZuSchluesselVonDatentabelle5070( 
+			ermittleDatentabelle5262(3 / compilezeitkonstante %HUSST-Ortspunkt-IBISCode-zu-PKMTarifpunktNr-Bediengebiet% /) 
+			; $VerkaufsStandortSchluessel
+		) 
+}"
+liefereAusnahme3042;;PkmFachfunktionen;S;;3042
+h2ps_;;Husst Testinitialisierung;H;;{:undefiniert}
+h2ps_berechneEingangsparameter;;Husst BerechnungsSchritt Funktionen;H;;{:undefiniert} / TODO Schnittstelle abstimmen /
+vorherigerHaltestelleText2036;;PkmFachfunktionen;S;;2036

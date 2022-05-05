@@ -1,0 +1,1933 @@
+<pvtm xmlns="http://vdv/ka/pkm/2">
+    <version>
+        <gueltigkeitsbeginn>2022-02-01T00:00:00</gueltigkeitsbeginn>
+        <externNr>0</externNr>
+        <internNr>0</internNr>
+        <modulstatus>1</modulstatus>
+        <modulspezifikation>1.6.0</modulspezifikation>
+        <modulnamenszusatz/>
+        <speicherzeitpunkt>2022-05-02T15:48:12</speicherzeitpunkt>
+        <bearbeiter>HUSST2PKM</bearbeiter>
+        <freigeber>HUSST2PKM</freigeber>
+        <bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
+    </version>
+    <herausgeber>
+        <nr>0</nr>
+        <name>HUSST</name>
+    </herausgeber>
+    <fachablauf>
+        <kontrollstart/>
+        <erfassungsstart/>
+        <anpassungsstart/>
+        <darstellungsstart/>
+        <produktermittlungsstart/>
+        <transaktionsauswertungsstart/>
+        <pruefungin/>
+    </fachablauf>
+    <text-matrix/>
+    <sprache-pool key="1">
+        <!--key 1--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Sprache-Item">
+            <nr>58</nr>
+            <name>Deutsch</name>
+        </item>
+    </sprache-pool>
+    <eingangsschnittstelle-pool key="2">
+        <!--key 2--><item>
+            <nr>1</nr>
+            <name>HusstStartZielFlach</name>
+            <parameter-pool key="3">
+                <!--key 3--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Eingangsparameter-Item">
+                    <nr>1</nr>
+                    <name>VerkaufsStandortTyp</name>
+                </item>
+                <!--key 4--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Eingangsparameter-Item">
+                    <nr>2</nr>
+                    <name>VerkaufsStandortSchluessel</name>
+                </item>
+            </parameter-pool>
+        </item>
+    </eingangsschnittstelle-pool>
+    <ausgangsschnittstelle-pool key="5">
+        <!--key 5--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Ausgangsschnittstelle-Item">
+            <nr>1</nr>
+            <name>ASST-HUSST Endgerät (Standard)</name>
+            <parameter-pool key="6" xsi:type="XML-Ausgangsparameter-Pool">
+                <!--key 6--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>10</nr>
+                    <name>AP-HUSST-Sorte-Bezeichnung</name>
+                </item>
+                <!--key 7--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>11</nr>
+                    <name>AP-HUSST-Sorte-BezeichnungKurz</name>
+                </item>
+                <!--key 8--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>20</nr>
+                    <name>AP-HUSST-Tarifpunkt-Start-Bezeichnung</name>
+                </item>
+                <!--key 9--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>21</nr>
+                    <name>AP-HUSST-Tarifpunkt-Start-BezeichnungDruck</name>
+                </item>
+                <!--key 10--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>30</nr>
+                    <name>AP-HUSST-Ortspunkt-Start-Bezeichnung</name>
+                </item>
+                <!--key 11--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>31</nr>
+                    <name>AP-HUSST-Ortspunkt-Start-BezeichnungKurz</name>
+                </item>
+                <!--key 12--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>32</nr>
+                    <name>AP-HUSST-Ortspunkt-Start-BezeichnungDruck</name>
+                </item>
+                <!--key 13--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>40</nr>
+                    <name>AP-HUSST-Tarifpunkt-Ziel-Bezeichnung</name>
+                </item>
+                <!--key 14--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>41</nr>
+                    <name>AP-HUSST-Tarifpunkt-Ziel-BezeichnungDruck</name>
+                </item>
+                <!--key 15--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>50</nr>
+                    <name>AP-HUSST-Ortspunkt-Ziel-Bezeichnung</name>
+                </item>
+                <!--key 16--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>51</nr>
+                    <name>AP-HUSST-Ortspunkt-Ziel-BezeichnungKurz</name>
+                </item>
+                <!--key 17--><item xsi:type="XML-Ausgangsparameter-Item">
+                    <nr>52</nr>
+                    <name>AP-HUSST-Ortspunkt-Ziel-BezeichnungDruck</name>
+                </item>
+            </parameter-pool>
+        </item>
+    </ausgangsschnittstelle-pool>
+    <ausgangskontext-pool key="18">
+        <!--key 18--><item>
+            <name>AK-HUSST-Sorte-Bezeichnung</name>
+            <sprache>
+                <ref>1</ref>
+            </sprache>
+            <parameter>
+                <ref>6</ref>
+            </parameter>
+        </item>
+        <!--key 19--><item>
+            <name>AK-HUSST-Sorte-BezeichnungKurz</name>
+            <sprache>
+                <ref>1</ref>
+            </sprache>
+            <parameter>
+                <ref>7</ref>
+            </parameter>
+        </item>
+        <!--key 20--><item>
+            <name>AK-HUSST-Tarifpunkt-Bezeichnung</name>
+            <sprache>
+                <ref>1</ref>
+            </sprache>
+            <parameter>
+                <ref>8</ref>
+                <ref>13</ref>
+            </parameter>
+        </item>
+        <!--key 21--><item>
+            <name>AK-HUSST-Tarifpunkt-BezeichnungDruck</name>
+            <sprache>
+                <ref>1</ref>
+            </sprache>
+            <parameter>
+                <ref>9</ref>
+                <ref>14</ref>
+            </parameter>
+        </item>
+        <!--key 22--><item>
+            <name>AK-HUSST-Ortspunkt-Bezeichnung</name>
+            <sprache>
+                <ref>1</ref>
+            </sprache>
+            <parameter>
+                <ref>10</ref>
+                <ref>15</ref>
+            </parameter>
+        </item>
+        <!--key 23--><item>
+            <name>AK-HUSST-Ortspunkt-BezeichnungKurz</name>
+            <sprache>
+                <ref>1</ref>
+            </sprache>
+            <parameter>
+                <ref>11</ref>
+                <ref>16</ref>
+            </parameter>
+        </item>
+        <!--key 24--><item>
+            <name>AK-HUSST-Ortspunkt-BezeichnungDruck</name>
+            <sprache>
+                <ref>1</ref>
+            </sprache>
+            <parameter>
+                <ref>12</ref>
+                <ref>17</ref>
+            </parameter>
+        </item>
+    </ausgangskontext-pool>
+    <datentabelle-pool key="25">
+        <!--key 25--><item>
+            <nr>1</nr>
+            <name>HUSST-Sorte-ReferenzExtern-zu-PKMTarifproduktNr</name>
+            <datensatzkey>
+                <text>1001</text>
+                <text>1002</text>
+                <text>1003</text>
+                <text>1004</text>
+            </datensatzkey>
+            <datensatzvalue>
+                <zahl>1001</zahl>
+                <zahl>1002</zahl>
+                <zahl>1003</zahl>
+                <zahl>1004</zahl>
+            </datensatzvalue>
+        </item>
+        <!--key 26--><item>
+            <nr>2</nr>
+            <name>HUSST-Ortspunkt-ReferenzExtern-zu-PKMTarifpunktNr-Bediengebiet</name>
+            <datensatzkey>
+                <text>101</text>
+                <text>102</text>
+                <text>103</text>
+                <text>201</text>
+                <text>202</text>
+                <text>203</text>
+                <text>301</text>
+                <text>302</text>
+                <text>303</text>
+                <text>401</text>
+                <text>402</text>
+                <text>403</text>
+                <text>501</text>
+                <text>502</text>
+                <text>503</text>
+                <text>601</text>
+                <text>602</text>
+                <text>603</text>
+            </datensatzkey>
+            <datensatzvalue>
+                <liste>
+                    <zahl>1000101</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000102</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000103</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000201</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000202</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000203</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000301</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000302</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000303</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000401</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000402</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000403</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000501</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000502</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000503</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000601</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000602</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000603</zahl>
+                    <zahl>1</zahl>
+                </liste>
+            </datensatzvalue>
+        </item>
+        <!--key 27--><item>
+            <nr>3</nr>
+            <name>HUSST-Ortspunkt-IBISCode-zu-PKMTarifpunktNr-Bediengebiet</name>
+            <datensatzkey>
+                <text>101</text>
+                <text>102</text>
+                <text>103</text>
+                <text>201</text>
+                <text>202</text>
+                <text>203</text>
+                <text>301</text>
+                <text>302</text>
+                <text>303</text>
+                <text>401</text>
+                <text>402</text>
+                <text>403</text>
+                <text>501</text>
+                <text>502</text>
+                <text>503</text>
+                <text>601</text>
+                <text>602</text>
+                <text>603</text>
+            </datensatzkey>
+            <datensatzvalue>
+                <liste>
+                    <zahl>1000101</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000102</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000103</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000201</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000202</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000203</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000301</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000302</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000303</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000401</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000402</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000403</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000501</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000502</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000503</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000601</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000602</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000603</zahl>
+                    <zahl>1</zahl>
+                </liste>
+            </datensatzvalue>
+        </item>
+        <!--key 28--><item>
+            <nr>4</nr>
+            <name>HUSST-Ortspunkt-Typ-Nr-zu-PKMTarifpunktNr-Bediengebiet</name>
+            <datensatzkey>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>101</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>102</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>103</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>201</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>202</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>203</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>301</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>302</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>303</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>401</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>402</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>403</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>501</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>502</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>503</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>601</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>602</zahl>
+                </liste>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>603</zahl>
+                </liste>
+            </datensatzkey>
+            <datensatzvalue>
+                <liste>
+                    <zahl>1000101</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000102</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000103</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000201</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000202</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000203</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000301</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000302</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000303</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000401</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000402</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000403</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000501</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000502</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000503</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000601</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000602</zahl>
+                    <zahl>1</zahl>
+                </liste>
+                <liste>
+                    <zahl>1000603</zahl>
+                    <zahl>1</zahl>
+                </liste>
+            </datensatzvalue>
+        </item>
+        <!--key 29--><item>
+            <nr>5</nr>
+            <name>HUSST-OTPTyp-Bediengebiet-zu-Tarifrelevanterpunkt</name>
+            <datensatzkey>
+                <liste>
+                    <zahl>1</zahl>
+                    <zahl>1</zahl>
+                </liste>
+            </datensatzkey>
+            <datensatzvalue>
+                <liste>
+                    <zahl>3009101</zahl>
+                    <zahl>3009102</zahl>
+                    <zahl>3009103</zahl>
+                    <zahl>3009201</zahl>
+                    <zahl>3009202</zahl>
+                    <zahl>3009203</zahl>
+                    <zahl>3009301</zahl>
+                    <zahl>3009302</zahl>
+                    <zahl>3009303</zahl>
+                    <zahl>3009401</zahl>
+                    <zahl>3009402</zahl>
+                    <zahl>3009403</zahl>
+                    <zahl>3009501</zahl>
+                    <zahl>3009502</zahl>
+                    <zahl>3009503</zahl>
+                    <zahl>3009601</zahl>
+                    <zahl>3009602</zahl>
+                    <zahl>3009603</zahl>
+                </liste>
+            </datensatzvalue>
+        </item>
+    </datentabelle-pool>
+    <schritt-pool key="30"/>
+    <variable-pool key="31"/>
+    <funktion-pool key="32"/>
+    <ausnahme-pool key="33"/>
+    <auswahldaten-pool key="34"/>
+    <auswahloption-pool key="35"/>
+    <ausgangsdaten-pool key="36"/>
+    <ausgangsdatenfamilie-pool key="37"/>
+    <organisation-pool>
+        <item>
+            <nr>1</nr>
+            <name>TG Wabentarif A-F</name>
+            <anforderung>
+                <nr>1</nr>
+            </anforderung>
+        </item>
+    </organisation-pool>
+    <efmprodukt-pool key="46"/>
+    <tarifprodukt-pool key="47">
+        <!--key 47--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifprodukt-Item">
+            <nr>1001</nr>
+            <name>Einzelfahrschein</name>
+            <text-matrix/>
+            <rueckzahlungsdaten-table>
+                <waehrung/>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+            </rueckzahlungsdaten-table>
+            <rueckzahlungsausnahme-table>
+                <waehrung/>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </rueckzahlungsausnahme-table>
+            <ungueltigkeitszeitpunktsdaten-table>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </ungueltigkeitszeitpunktsdaten-table>
+            <ungueltigkeitszeitpunktsausnahme-table>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </ungueltigkeitszeitpunktsausnahme-table>
+            <preisdaten-table>
+                <waehrung>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                </waehrung>
+                <bezahlartbedingung/>
+                <zahlungsintervallbedingung/>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung>
+                    <ref>39</ref>
+                    <ref>40</ref>
+                    <ref>41</ref>
+                    <ref>42</ref>
+                    <ref>43</ref>
+                    <ref>44</ref>
+                </bewertungsbedingung>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool>
+                    <item>
+                        <wert>100</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>200</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>300</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>400</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>500</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>600</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                </daten-pool>
+                <ausnahme/>
+            </preisdaten-table>
+            <preisausnahme-table>
+                <waehrung/>
+                <bezahlartbedingung/>
+                <zahlungsintervallbedingung/>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </preisausnahme-table>
+            <gueltigkeitszeitrahmensdaten-table>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </gueltigkeitszeitrahmensdaten-table>
+            <gueltigkeitszeitrahmensausnahme-table>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </gueltigkeitszeitrahmensausnahme-table>
+            <nachfolgedaten-table>
+                <kriterium/>
+                <vorgaenger/>
+                <nachfolger/>
+                <ausnahme/>
+            </nachfolgedaten-table>
+            <nachfolgeausnahme-table>
+                <kriterium/>
+                <vorgaenger/>
+                <nachfolger/>
+                <ausnahme/>
+            </nachfolgeausnahme-table>
+            <efmprodukt/>
+            <identifikation/>
+            <kontingentierung/>
+            <preisanpassung>false</preisanpassung>
+            <extNr>1001</extNr>
+        </item>
+        <!--key 48--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifprodukt-Item">
+            <nr>1002</nr>
+            <name>Tageskarte</name>
+            <text-matrix/>
+            <rueckzahlungsdaten-table>
+                <waehrung/>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+            </rueckzahlungsdaten-table>
+            <rueckzahlungsausnahme-table>
+                <waehrung/>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </rueckzahlungsausnahme-table>
+            <ungueltigkeitszeitpunktsdaten-table>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </ungueltigkeitszeitpunktsdaten-table>
+            <ungueltigkeitszeitpunktsausnahme-table>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </ungueltigkeitszeitpunktsausnahme-table>
+            <preisdaten-table>
+                <waehrung>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                </waehrung>
+                <bezahlartbedingung/>
+                <zahlungsintervallbedingung/>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung>
+                    <ref>39</ref>
+                    <ref>40</ref>
+                    <ref>41</ref>
+                    <ref>42</ref>
+                    <ref>43</ref>
+                    <ref>44</ref>
+                </bewertungsbedingung>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool>
+                    <item>
+                        <wert>280</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>560</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>840</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>1120</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>1400</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>1680</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                </daten-pool>
+                <ausnahme/>
+            </preisdaten-table>
+            <preisausnahme-table>
+                <waehrung/>
+                <bezahlartbedingung/>
+                <zahlungsintervallbedingung/>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </preisausnahme-table>
+            <gueltigkeitszeitrahmensdaten-table>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </gueltigkeitszeitrahmensdaten-table>
+            <gueltigkeitszeitrahmensausnahme-table>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </gueltigkeitszeitrahmensausnahme-table>
+            <nachfolgedaten-table>
+                <kriterium/>
+                <vorgaenger/>
+                <nachfolger/>
+                <ausnahme/>
+            </nachfolgedaten-table>
+            <nachfolgeausnahme-table>
+                <kriterium/>
+                <vorgaenger/>
+                <nachfolger/>
+                <ausnahme/>
+            </nachfolgeausnahme-table>
+            <efmprodukt/>
+            <identifikation/>
+            <kontingentierung/>
+            <preisanpassung>false</preisanpassung>
+            <extNr>1002</extNr>
+        </item>
+        <!--key 49--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifprodukt-Item">
+            <nr>1003</nr>
+            <name>Wochenkarte</name>
+            <text-matrix/>
+            <rueckzahlungsdaten-table>
+                <waehrung/>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+            </rueckzahlungsdaten-table>
+            <rueckzahlungsausnahme-table>
+                <waehrung/>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </rueckzahlungsausnahme-table>
+            <ungueltigkeitszeitpunktsdaten-table>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </ungueltigkeitszeitpunktsdaten-table>
+            <ungueltigkeitszeitpunktsausnahme-table>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </ungueltigkeitszeitpunktsausnahme-table>
+            <preisdaten-table>
+                <waehrung>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                </waehrung>
+                <bezahlartbedingung/>
+                <zahlungsintervallbedingung/>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung>
+                    <ref>39</ref>
+                    <ref>40</ref>
+                    <ref>41</ref>
+                    <ref>42</ref>
+                    <ref>43</ref>
+                    <ref>44</ref>
+                </bewertungsbedingung>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool>
+                    <item>
+                        <wert>800</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>1600</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>2400</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>3200</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>4000</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>4800</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                </daten-pool>
+                <ausnahme/>
+            </preisdaten-table>
+            <preisausnahme-table>
+                <waehrung/>
+                <bezahlartbedingung/>
+                <zahlungsintervallbedingung/>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </preisausnahme-table>
+            <gueltigkeitszeitrahmensdaten-table>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </gueltigkeitszeitrahmensdaten-table>
+            <gueltigkeitszeitrahmensausnahme-table>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </gueltigkeitszeitrahmensausnahme-table>
+            <nachfolgedaten-table>
+                <kriterium/>
+                <vorgaenger/>
+                <nachfolger/>
+                <ausnahme/>
+            </nachfolgedaten-table>
+            <nachfolgeausnahme-table>
+                <kriterium/>
+                <vorgaenger/>
+                <nachfolger/>
+                <ausnahme/>
+            </nachfolgeausnahme-table>
+            <efmprodukt/>
+            <identifikation/>
+            <kontingentierung/>
+            <preisanpassung>false</preisanpassung>
+            <extNr>1003</extNr>
+        </item>
+        <!--key 50--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifprodukt-Item">
+            <nr>1004</nr>
+            <name>Monatskarte</name>
+            <text-matrix/>
+            <rueckzahlungsdaten-table>
+                <waehrung/>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+            </rueckzahlungsdaten-table>
+            <rueckzahlungsausnahme-table>
+                <waehrung/>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </rueckzahlungsausnahme-table>
+            <ungueltigkeitszeitpunktsdaten-table>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </ungueltigkeitszeitpunktsdaten-table>
+            <ungueltigkeitszeitpunktsausnahme-table>
+                <tagesbedingung/>
+                <zeitraumbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </ungueltigkeitszeitpunktsausnahme-table>
+            <preisdaten-table>
+                <waehrung>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                    <ref>45</ref>
+                </waehrung>
+                <bezahlartbedingung/>
+                <zahlungsintervallbedingung/>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung>
+                    <ref>39</ref>
+                    <ref>40</ref>
+                    <ref>41</ref>
+                    <ref>42</ref>
+                    <ref>43</ref>
+                    <ref>44</ref>
+                </bewertungsbedingung>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool>
+                    <item>
+                        <wert>2350</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>4700</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>7050</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>9400</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>11750</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                    <item>
+                        <wert>14100</wert>
+                        <mwstsatz>7</mwstsatz>
+                    </item>
+                </daten-pool>
+                <ausnahme/>
+            </preisdaten-table>
+            <preisausnahme-table>
+                <waehrung/>
+                <bezahlartbedingung/>
+                <zahlungsintervallbedingung/>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <zeitraumbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <mitnahmebedingung/>
+                <rabattmedienbedingung/>
+                <modulkontextbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </preisausnahme-table>
+            <gueltigkeitszeitrahmensdaten-table>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </gueltigkeitszeitrahmensdaten-table>
+            <gueltigkeitszeitrahmensausnahme-table>
+                <tagesbedingung/>
+                <tageszeitbedingung/>
+                <tarifpunktbedingung/>
+                <bewertungsbedingung/>
+                <verkehrsmittellinienbedingung/>
+                <spezialbedingung/>
+                <daten-pool/>
+                <ausnahme/>
+            </gueltigkeitszeitrahmensausnahme-table>
+            <nachfolgedaten-table>
+                <kriterium/>
+                <vorgaenger/>
+                <nachfolger/>
+                <ausnahme/>
+            </nachfolgedaten-table>
+            <nachfolgeausnahme-table>
+                <kriterium/>
+                <vorgaenger/>
+                <nachfolger/>
+                <ausnahme/>
+            </nachfolgeausnahme-table>
+            <efmprodukt/>
+            <identifikation/>
+            <kontingentierung/>
+            <preisanpassung>false</preisanpassung>
+            <extNr>1004</extNr>
+        </item>
+    </tarifprodukt-pool>
+    <fremdprodukt-pool key="51"/>
+    <produktgruppe-pool key="52"/>
+    <kontingentierung-pool key="53"/>
+    <nachfolgekriterium-pool key="54"/>
+    <abhaengigkeitskriterium-pool key="55"/>
+    <identifikationsparameter-pool key="56"/>
+    <tarifpunkt-pool key="57">
+        <!--key 57--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>100</nr>
+            <name>Wabe A (HUSST Tarifpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifpunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 58--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>200</nr>
+            <name>Wabe B (HUSST Tarifpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifpunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 59--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>300</nr>
+            <name>Wabe C (HUSST Tarifpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifpunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 60--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>400</nr>
+            <name>Wabe D (HUSST Tarifpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifpunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 61--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>500</nr>
+            <name>Wabe E (HUSST Tarifpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifpunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 62--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>600</nr>
+            <name>Wabe F (HUSST Tarifpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifpunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 63--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000101</nr>
+            <name>Haltestelle A1 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 64--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000102</nr>
+            <name>Haltestelle A2 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 65--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000103</nr>
+            <name>Haltestelle A3 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 66--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000201</nr>
+            <name>Haltestelle B1 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 67--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000202</nr>
+            <name>Haltestelle B2 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 68--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000203</nr>
+            <name>Haltestelle B3 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 69--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000301</nr>
+            <name>Haltestelle C1 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 70--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000302</nr>
+            <name>Haltestelle C2 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 71--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000303</nr>
+            <name>Haltestelle C3 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 72--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000401</nr>
+            <name>Haltestelle D1 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 73--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000402</nr>
+            <name>Haltestelle D2 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 74--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000403</nr>
+            <name>Haltestelle D3 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 75--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000501</nr>
+            <name>Haltestelle E1 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 76--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000502</nr>
+            <name>Haltestelle E2 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 77--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000503</nr>
+            <name>Haltestelle E3 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 78--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000601</nr>
+            <name>Haltestelle F1 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 79--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000602</nr>
+            <name>Haltestelle F2 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 80--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>1000603</nr>
+            <name>Haltestelle F3 (HUSST Ortspunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Ortspunkttyp_1</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 81--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>2008100</nr>
+            <name>8100 (HUSST Relationscode)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Relationscode</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 82--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>2008200</nr>
+            <name>8200 (HUSST Relationscode)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Relationscode</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 83--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>2008300</nr>
+            <name>8300 (HUSST Relationscode)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Relationscode</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 84--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>2008400</nr>
+            <name>8400 (HUSST Relationscode)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Relationscode</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 85--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>2008500</nr>
+            <name>8500 (HUSST Relationscode)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Relationscode</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 86--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>2008600</nr>
+            <name>8600 (HUSST Relationscode)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Relationscode</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 87--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009101</nr>
+            <name>101 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 88--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009102</nr>
+            <name>102 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 89--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009103</nr>
+            <name>103 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 90--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009201</nr>
+            <name>201 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 91--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009202</nr>
+            <name>202 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 92--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009203</nr>
+            <name>203 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 93--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009301</nr>
+            <name>301 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 94--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009302</nr>
+            <name>302 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 95--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009303</nr>
+            <name>303 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 96--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009401</nr>
+            <name>401 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 97--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009402</nr>
+            <name>402 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 98--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009403</nr>
+            <name>403 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 99--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009501</nr>
+            <name>501 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 100--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009502</nr>
+            <name>502 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 101--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009503</nr>
+            <name>503 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 102--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009601</nr>
+            <name>601 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 103--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009602</nr>
+            <name>602 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <!--key 104--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
+            <nr>3009603</nr>
+            <name>603 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug/>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+    </tarifpunkt-pool>
+    <tarifpunktgruppe-pool key="105"/>
+    <tarifpunktreferenz-pool key="106"/>
+    <zuordnungstyp-pool key="108">
+        <!--key 108--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Zuordnungstyp-Item">
+            <name>HUSST-Ortspunkt-zu-Tarifrelevanterpunkt-mit-OTPTyp-1-und-Bediengebiet-1</name>
+        </item>
+    </zuordnungstyp-pool>
+    <zuordnungsdaten-matrix>
+        <typ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ref="108" xsi:type="XML-Zuordnungsdatentyp-Entry">
+            <bezug ref="107">
+                <von ref="63" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>87</zu>
+                </von>
+                <von ref="64" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>88</zu>
+                </von>
+                <von ref="65" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>89</zu>
+                </von>
+                <von ref="66" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>90</zu>
+                </von>
+                <von ref="67" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>91</zu>
+                </von>
+                <von ref="68" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>92</zu>
+                </von>
+                <von ref="69" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>93</zu>
+                </von>
+                <von ref="70" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>94</zu>
+                </von>
+                <von ref="71" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>95</zu>
+                </von>
+                <von ref="72" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>96</zu>
+                </von>
+                <von ref="73" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>97</zu>
+                </von>
+                <von ref="74" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>98</zu>
+                </von>
+                <von ref="75" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>99</zu>
+                </von>
+                <von ref="76" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>100</zu>
+                </von>
+                <von ref="77" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>101</zu>
+                </von>
+                <von ref="78" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>102</zu>
+                </von>
+                <von ref="79" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>103</zu>
+                </von>
+                <von ref="80" xsi:type="XML-Zuordnungsdatenvon-Entry">
+                    <zu>104</zu>
+                </von>
+            </bezug>
+        </typ>
+    </zuordnungsdaten-matrix>
+    <zuordnungsausnahme-matrix/>
+    <wegevariante-pool key="109">
+        <!--key 109--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Wegevariante-Item">
+            <nr>1</nr>
+            <name>Alle Wege</name>
+            <text-matrix/>
+            <geobezug/>
+            <tarifpunktfolge-pool/>
+        </item>
+    </wegevariante-pool>
+    <bewertungstyp-pool key="38">
+        <!--key 38--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Bewertungstyp-Item">
+            <name>Preisstufe</name>
+        </item>
+    </bewertungstyp-pool>
+    <bewertungsdaten-pool key="110">
+        <!--key 110--><item>
+            <name>PST1</name>
+            <wert>
+                <zahl>1</zahl>
+            </wert>
+            <text-matrix/>
+        </item>
+        <!--key 111--><item>
+            <name>PST2</name>
+            <wert>
+                <zahl>2</zahl>
+            </wert>
+            <text-matrix/>
+        </item>
+        <!--key 112--><item>
+            <name>PST3</name>
+            <wert>
+                <zahl>3</zahl>
+            </wert>
+            <text-matrix/>
+        </item>
+        <!--key 113--><item>
+            <name>PST4</name>
+            <wert>
+                <zahl>4</zahl>
+            </wert>
+            <text-matrix/>
+        </item>
+        <!--key 114--><item>
+            <name>PST5</name>
+            <wert>
+                <zahl>5</zahl>
+            </wert>
+            <text-matrix/>
+        </item>
+        <!--key 115--><item>
+            <name>PST6</name>
+            <wert>
+                <zahl>6</zahl>
+            </wert>
+            <text-matrix/>
+        </item>
+    </bewertungsdaten-pool>
+    <bewertungsdaten-matrix>
+        <typ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ref="38" xsi:type="XML-Bewertungsdatentyp-Entry">
+            <bezug ref="107" xsi:type="XML-Bewertungsdatenbezug-Entry">
+                <von ref="57" xsi:type="XML-Bewertungsdatenvon-Entry">
+                    <nach ref="57" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">110</ueber>
+                    </nach>
+                    <nach ref="58" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">111</ueber>
+                    </nach>
+                    <nach ref="59" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">112</ueber>
+                    </nach>
+                    <nach ref="60" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">113</ueber>
+                    </nach>
+                    <nach ref="61" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">114</ueber>
+                    </nach>
+                    <nach ref="62" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">115</ueber>
+                    </nach>
+                </von>
+                <von ref="58" xsi:type="XML-Bewertungsdatenvon-Entry">
+                    <nach ref="58" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">110</ueber>
+                    </nach>
+                    <nach ref="59" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">111</ueber>
+                    </nach>
+                    <nach ref="60" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">110</ueber>
+                    </nach>
+                    <nach ref="61" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">112</ueber>
+                    </nach>
+                    <nach ref="62" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">113</ueber>
+                    </nach>
+                </von>
+                <von ref="59" xsi:type="XML-Bewertungsdatenvon-Entry">
+                    <nach ref="59" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">110</ueber>
+                    </nach>
+                    <nach ref="60" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">111</ueber>
+                    </nach>
+                    <nach ref="61" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">112</ueber>
+                    </nach>
+                    <nach ref="62" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">113</ueber>
+                    </nach>
+                </von>
+                <von ref="60" xsi:type="XML-Bewertungsdatenvon-Entry">
+                    <nach ref="60" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">110</ueber>
+                    </nach>
+                    <nach ref="61" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">111</ueber>
+                    </nach>
+                    <nach ref="62" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">112</ueber>
+                    </nach>
+                </von>
+                <von ref="61" xsi:type="XML-Bewertungsdatenvon-Entry">
+                    <nach ref="61" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">110</ueber>
+                    </nach>
+                    <nach ref="62" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">111</ueber>
+                    </nach>
+                </von>
+                <von ref="62" xsi:type="XML-Bewertungsdatenvon-Entry">
+                    <nach ref="62" xsi:type="XML-Bewertungsdatennach-Entry">
+                        <ueber ref="109" xsi:type="XML-Bewertungsdatenueber-Entry">110</ueber>
+                    </nach>
+                </von>
+            </bezug>
+        </typ>
+    </bewertungsdaten-matrix>
+    <bewertungsausnahme-matrix/>
+    <linie-pool key="116"/>
+    <verkehrsmitteltyp-pool key="117"/>
+    <verkehrsmittellinienbezug-pool key="107">
+        <!--key 107--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Verkehrsmittellinienbezug-Item">
+            <name>Alle Verkehrsmittel</name>
+        </item>
+    </verkehrsmittellinienbezug-pool>
+    <bezahlart-pool key="118"/>
+    <waehrung-pool key="45">
+        <!--key 45--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Waehrung-Item">
+            <nr>10536</nr>
+            <name>Euro-Cent</name>
+            <text-matrix/>
+        </item>
+    </waehrung-pool>
+    <zahlungsintervall-pool key="119"/>
+    <mitnahmetyp-pool key="121"/>
+    <rabattmedientyp-pool key="122"/>
+    <modulkontext-pool key="123">
+        <!--key 123--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Modulkontext-Item">
+            <nr>1</nr>
+            <name>HUSST Endgerät (Standard) Modulkontext</name>
+        </item>
+    </modulkontext-pool>
+    <spezialbedingung-pool key="124"/>
+    <tagesbedingung-pool key="125"/>
+    <tageszeitbedingung-pool key="126"/>
+    <zeitraumbedingung-pool key="127"/>
+    <tarifpunktbedingung-pool key="128"/>
+    <bewertungsbedingung-pool key="39">
+        <!--key 39--><item>
+            <name>Bewertungsbedingung Preisstufe 1</name>
+            <bewertungstyp>
+                <ref>38</ref>
+            </bewertungstyp>
+            <werte>
+                <zahl>1</zahl>
+            </werte>
+        </item>
+        <!--key 40--><item>
+            <name>Bewertungsbedingung Preisstufe 2</name>
+            <bewertungstyp>
+                <ref>38</ref>
+            </bewertungstyp>
+            <werte>
+                <zahl>2</zahl>
+            </werte>
+        </item>
+        <!--key 41--><item>
+            <name>Bewertungsbedingung Preisstufe 3</name>
+            <bewertungstyp>
+                <ref>38</ref>
+            </bewertungstyp>
+            <werte>
+                <zahl>3</zahl>
+            </werte>
+        </item>
+        <!--key 42--><item>
+            <name>Bewertungsbedingung Preistufe 4</name>
+            <bewertungstyp>
+                <ref>38</ref>
+            </bewertungstyp>
+            <werte>
+                <zahl>4</zahl>
+            </werte>
+        </item>
+        <!--key 43--><item>
+            <name>Bewertungsbedingung Preisstufe 5</name>
+            <bewertungstyp>
+                <ref>38</ref>
+            </bewertungstyp>
+            <werte>
+                <zahl>5</zahl>
+            </werte>
+        </item>
+        <!--key 44--><item>
+            <name>Bewertungsbedingung Preisstufe 6</name>
+            <bewertungstyp>
+                <ref>38</ref>
+            </bewertungstyp>
+            <werte>
+                <zahl>6</zahl>
+            </werte>
+        </item>
+    </bewertungsbedingung-pool>
+    <geosegmentbedingung-pool key="129"/>
+    <verkehrsmittellinienbedingung-pool key="130"/>
+    <bezahlartbedingung-pool key="131"/>
+    <zahlungsintervallbedingung-pool key="132"/>
+    <mitnahmebedingung-pool key="133"/>
+    <rabattmedienbedingung-pool key="134"/>
+    <modulkontextbedingung-pool key="135">
+        <!--key 135--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Modulkontextbedingung-Item">
+            <name>HUSST Endgerät (Standard) Modulkontextbedingung</name>
+            <element>
+                <ref>123</ref>
+            </element>
+        </item>
+    </modulkontextbedingung-pool>
+    <bifainterpretation-pool key="136"/>
+    <nummerninterpretation-pool key="137"/>
+    <bitleisteninterpretation-pool key="138"/>
+    <raumnummerninterpretation-pool key="139"/>
+    <schluessel-pool key="140"/>
+    <kommentar-pool/>
+    <signatur/>
+    <annotation/>
+</pvtm>

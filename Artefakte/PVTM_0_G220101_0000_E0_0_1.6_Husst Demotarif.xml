@@ -7,7 +7,7 @@
         <modulstatus>1</modulstatus>
         <modulspezifikation>1.6.0</modulspezifikation>
         <modulnamenszusatz/>
-        <speicherzeitpunkt>2022-05-02T15:48:12</speicherzeitpunkt>
+        <speicherzeitpunkt>2022-05-25T11:43:33</speicherzeitpunkt>
         <bearbeiter>HUSST2PKM</bearbeiter>
         <freigeber>HUSST2PKM</freigeber>
         <bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
@@ -547,6 +547,10 @@
                     <zahl>1</zahl>
                     <zahl>1</zahl>
                 </liste>
+                <liste>
+                    <zahl>2</zahl>
+                    <zahl>1</zahl>
+                </liste>
             </datensatzkey>
             <datensatzvalue>
                 <liste>
@@ -568,6 +572,26 @@
                     <zahl>3009601</zahl>
                     <zahl>3009602</zahl>
                     <zahl>3009603</zahl>
+                </liste>
+                <liste>
+                    <zahl>3002101</zahl>
+                    <zahl>3002102</zahl>
+                    <zahl>3002103</zahl>
+                    <zahl>3002201</zahl>
+                    <zahl>3002202</zahl>
+                    <zahl>3002203</zahl>
+                    <zahl>3002301</zahl>
+                    <zahl>3002302</zahl>
+                    <zahl>3002303</zahl>
+                    <zahl>3002401</zahl>
+                    <zahl>3002402</zahl>
+                    <zahl>3002403</zahl>
+                    <zahl>3002501</zahl>
+                    <zahl>3002502</zahl>
+                    <zahl>3002503</zahl>
+                    <zahl>3002601</zahl>
+                    <zahl>3002602</zahl>
+                    <zahl>3002603</zahl>
                 </liste>
             </datensatzvalue>
         </item>
@@ -1472,6 +1496,150 @@
             <ortsbezug/>
         </item>
         <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002101</nr>
+            <name>101 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002102</nr>
+            <name>102 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002103</nr>
+            <name>103 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002201</nr>
+            <name>201 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002202</nr>
+            <name>202 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002203</nr>
+            <name>203 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002301</nr>
+            <name>301 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002302</nr>
+            <name>302 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002303</nr>
+            <name>303 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002401</nr>
+            <name>401 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002402</nr>
+            <name>402 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002403</nr>
+            <name>403 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002501</nr>
+            <name>501 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002502</nr>
+            <name>502 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002503</nr>
+            <name>503 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002601</nr>
+            <name>601 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002602</nr>
+            <name>602 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>3002603</nr>
+            <name>603 (HUSST Tarifrelevanterpunkt)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <typ>Tarifrelevanterpunkt</typ>
+            <ortsbezug/>
+        </item>
+        <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>3009101</nr>
             <name>101 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix/>
@@ -1616,16 +1784,77 @@
             <ortsbezug/>
         </item>
     </tarifpunkt-pool>
-    <tarifpunktgruppe-pool key="105"/>
-    <tarifpunktreferenz-pool key="106"/>
-    <zuordnungstyp-pool key="108">
+    <tarifpunktgruppe-pool key="123"/>
+    <tarifpunktreferenz-pool key="124"/>
+    <zuordnungstyp-pool key="126">
         <item xsi:type="XML-Zuordnungstyp-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>HUSST-Ortspunkt-zu-Tarifrelevanterpunkt-mit-OTPTyp-1-und-Bediengebiet-1</name>
         </item>
+        <item xsi:type="XML-Zuordnungstyp-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <name>HUSST-Ortspunkt-zu-Tarifrelevanterpunkt-mit-OTPTyp-2-und-Bediengebiet-1</name>
+        </item>
     </zuordnungstyp-pool>
     <zuordnungsdaten-matrix>
-        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="108" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <bezug ref="107">
+        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="126" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <bezug ref="125">
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="63">
+                    <zu>105</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="64">
+                    <zu>106</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="65">
+                    <zu>107</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="66">
+                    <zu>108</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="67">
+                    <zu>109</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="68">
+                    <zu>110</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="69">
+                    <zu>111</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="70">
+                    <zu>112</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="71">
+                    <zu>113</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="72">
+                    <zu>114</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="73">
+                    <zu>115</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="74">
+                    <zu>116</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="75">
+                    <zu>117</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="76">
+                    <zu>118</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="77">
+                    <zu>119</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="78">
+                    <zu>120</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="79">
+                    <zu>121</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="80">
+                    <zu>122</zu>
+                </von>
+            </bezug>
+        </typ>
+        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="127" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <bezug ref="125">
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="63">
                     <zu>87</zu>
                 </von>
@@ -1684,7 +1913,7 @@
         </typ>
     </zuordnungsdaten-matrix>
     <zuordnungsausnahme-matrix/>
-    <wegevariante-pool key="109">
+    <wegevariante-pool key="128">
         <item xsi:type="XML-Wegevariante-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>1</nr>
             <name>Alle Wege</name>
@@ -1698,7 +1927,7 @@
             <name>Preisstufe</name>
         </item>
     </bewertungstyp-pool>
-    <bewertungsdaten-pool key="110">
+    <bewertungsdaten-pool key="129">
         <item>
             <name>PST1</name>
             <wert>
@@ -1744,94 +1973,94 @@
     </bewertungsdaten-pool>
     <bewertungsdaten-matrix>
         <typ xsi:type="XML-Bewertungsdatentyp-Entry" ref="38" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <bezug xsi:type="XML-Bewertungsdatenbezug-Entry" ref="107">
+            <bezug xsi:type="XML-Bewertungsdatenbezug-Entry" ref="125">
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="57">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="57">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">110</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">129</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="58">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">111</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">130</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="59">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">112</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">131</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="60">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">113</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">132</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="61">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">114</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">133</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="62">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">115</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">134</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="58">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="58">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">110</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">129</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="59">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">111</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">130</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="60">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">110</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">129</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="61">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">112</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">131</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="62">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">113</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">132</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="59">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="59">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">110</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">129</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="60">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">111</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">130</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="61">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">112</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">131</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="62">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">113</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">132</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="60">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="60">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">110</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">129</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="61">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">111</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">130</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="62">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">112</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">131</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="61">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="61">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">110</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">129</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="62">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">111</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">130</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="62">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="62">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="109">110</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="128">129</ueber>
                     </nach>
                 </von>
             </bezug>
         </typ>
     </bewertungsdaten-matrix>
     <bewertungsausnahme-matrix/>
-    <linie-pool key="116"/>
-    <verkehrsmitteltyp-pool key="117"/>
-    <verkehrsmittellinienbezug-pool key="107">
+    <linie-pool key="135"/>
+    <verkehrsmitteltyp-pool key="136"/>
+    <verkehrsmittellinienbezug-pool key="125">
         <item xsi:type="XML-Verkehrsmittellinienbezug-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>Alle Verkehrsmittel</name>
         </item>
     </verkehrsmittellinienbezug-pool>
-    <bezahlart-pool key="118"/>
+    <bezahlart-pool key="137"/>
     <waehrung-pool key="45">
         <item xsi:type="XML-Waehrung-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>10536</nr>
@@ -1839,20 +2068,20 @@
             <text-matrix/>
         </item>
     </waehrung-pool>
-    <zahlungsintervall-pool key="119"/>
-    <mitnahmetyp-pool key="121"/>
-    <rabattmedientyp-pool key="122"/>
-    <modulkontext-pool key="123">
+    <zahlungsintervall-pool key="138"/>
+    <mitnahmetyp-pool key="140"/>
+    <rabattmedientyp-pool key="141"/>
+    <modulkontext-pool key="142">
         <item xsi:type="XML-Modulkontext-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>1</nr>
             <name>HUSST Endgerät (Standard) Modulkontext</name>
         </item>
     </modulkontext-pool>
-    <spezialbedingung-pool key="124"/>
-    <tagesbedingung-pool key="125"/>
-    <tageszeitbedingung-pool key="126"/>
-    <zeitraumbedingung-pool key="127"/>
-    <tarifpunktbedingung-pool key="128"/>
+    <spezialbedingung-pool key="143"/>
+    <tagesbedingung-pool key="144"/>
+    <tageszeitbedingung-pool key="145"/>
+    <zeitraumbedingung-pool key="146"/>
+    <tarifpunktbedingung-pool key="147"/>
     <bewertungsbedingung-pool key="39">
         <item>
             <name>Bewertungsbedingung Preisstufe 1</name>
@@ -1882,7 +2111,7 @@
             </werte>
         </item>
         <item>
-            <name>Bewertungsbedingung Preistufe 4</name>
+            <name>Bewertungsbedingung Preisstufe 4</name>
             <bewertungstyp>
                 <ref>38</ref>
             </bewertungstyp>
@@ -1909,25 +2138,25 @@
             </werte>
         </item>
     </bewertungsbedingung-pool>
-    <geosegmentbedingung-pool key="129"/>
-    <verkehrsmittellinienbedingung-pool key="130"/>
-    <bezahlartbedingung-pool key="131"/>
-    <zahlungsintervallbedingung-pool key="132"/>
-    <mitnahmebedingung-pool key="133"/>
-    <rabattmedienbedingung-pool key="134"/>
-    <modulkontextbedingung-pool key="135">
+    <geosegmentbedingung-pool key="148"/>
+    <verkehrsmittellinienbedingung-pool key="149"/>
+    <bezahlartbedingung-pool key="150"/>
+    <zahlungsintervallbedingung-pool key="151"/>
+    <mitnahmebedingung-pool key="152"/>
+    <rabattmedienbedingung-pool key="153"/>
+    <modulkontextbedingung-pool key="154">
         <item xsi:type="XML-Modulkontextbedingung-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>HUSST Endgerät (Standard) Modulkontextbedingung</name>
             <element>
-                <ref>123</ref>
+                <ref>142</ref>
             </element>
         </item>
     </modulkontextbedingung-pool>
-    <bifainterpretation-pool key="136"/>
-    <nummerninterpretation-pool key="137"/>
-    <bitleisteninterpretation-pool key="138"/>
-    <raumnummerninterpretation-pool key="139"/>
-    <schluessel-pool key="140"/>
+    <bifainterpretation-pool key="155"/>
+    <nummerninterpretation-pool key="156"/>
+    <bitleisteninterpretation-pool key="157"/>
+    <raumnummerninterpretation-pool key="158"/>
+    <schluessel-pool key="159"/>
     <kommentar-pool/>
     <signatur/>
     <annotation/>

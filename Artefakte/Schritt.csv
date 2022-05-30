@@ -4,10 +4,11 @@ s3;B;h2ps_berechneBediengebiet;;s4
 s4;B;h2ps_berechneStartpunkt;;s5
 s5;B;h2ps_berechneStartpunktliste;;s5.1 AusgabeStartTarifpunkte
 s5.1 AusgabeStartTarifpunkte;A;AD-StartTarifpunktAnzeige;;s5.2 AuswahlStartTarifpunkt
+s5.2 AuswahlStartTarifpunkt;B;ErmittleStartpunktAuswahl;;s6
 s6;B;h2ps_berechneZielpunktliste;;s6.1
 s6.1;A;AD-ZielTarifpunktAnzeige;;s6.2
+s6.2;B;ErmittleZielpunktAuswahl;;s7 TarifrelevantePunkteZuRelcode
 s0;B;h2ps_;;s1
 s1;B;h2ps_berechneEingangsparameter;;s2
-s5.2 AuswahlStartTarifpunkt;B;ErmittleStartpunktAuswahl;;s6
-s6.2;B;ErmittleZielpunktAuswahl;;s7 TarifrelevantePunkteZuRelcode
-s7 TarifrelevantePunkteZuRelcode;B;ErmittleRelcodes;;
+s7 TarifrelevantePunkteZuRelcode;B;ErmittleRelcodes;;s8 Relcodes zu Preisparameter (Tarifpunkte/Via)
+s8 Relcodes zu Preisparameter (Tarifpunkte/Via);B;ErmittlePreisparameter;;

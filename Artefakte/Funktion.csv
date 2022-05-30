@@ -24,6 +24,31 @@ ErmittleZielpunktAuswahl;():Tarifpunkt;;H;;"{:setzeVariable4002(ZielTarifrelevan
 	ermittleTarifpunkt5035(listeElement3071(leseVariable4001(Zielpunktliste); leseEingangsparameter4026(EP.RelationZielTarifpunktIndex)))
 	)
 }"
+ErmittleRelcodes;;;H;;"{: erzeugeListe3219(
+	setzeVariable4002(
+		StartRelationscode
+		; listeElement3071(
+				 ermittleZutarifpunkteZuZuordnungen5273(
+		 		 	leseVariable4001(StartTarifrelevanterpunkt)
+					; HUSST-Tarifrelevanterpunkt-zu-HUSST-RelCode
+					; <Alle Verkehrsmittel>
+				)
+				; 1
+		)
+	)
+	;setzeVariable4002(
+		ZielRelationscode
+		; listeElement3071(
+				ermittleZutarifpunkteZuZuordnungen5273(
+		 		 	leseVariable4001(ZielTarifrelevanterpunkt)
+					; HUSST-Tarifrelevanterpunkt-zu-HUSST-RelCode
+					; <Alle Verkehrsmittel>
+				)
+				; 1
+		)
+	)
+)
+}"
 setzeVariable4002;;PkmFachfunktionen;S;;4002
 leseVariable4001;;PkmFachfunktionen;S;;4001
 leseEingangsparameter4026;;PkmFachfunktionen;S;;4026
@@ -152,31 +177,19 @@ wandleStartTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeVar
 wandleZielTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeVariable4002(AD.ZielTarifpunkteAnzeige; wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Zielpunktliste)))}"
 ermittleEinzelauswahl;;;S;;3034
 leseAusgangsparameter;;;S;;4038
-ErmittleRelcodes;;;H;;"{: erzeugeListe3219(
-	setzeVariable4002(
-		StartRelationscode
-		; listeElement3071(
-				 ermittleZutarifpunkteZuZuordnungen5273(
-		 		 	leseVariable4001(StartTarifrelevanterpunkt)
-					; HUSST-Tarifrelevanterpunkt-zu-HUSST-RelCode
-					; <Alle Verkehrsmittel>
-				)
-				; 1
-		)
-	)
-	;setzeVariable4002(
-		ZielRelationscode
-		; listeElement3071(
-				ermittleZutarifpunkteZuZuordnungen5273(
-		 		 	leseVariable4001(ZielTarifrelevanterpunkt)
-					; HUSST-Tarifrelevanterpunkt-zu-HUSST-RelCode
-					; <Alle Verkehrsmittel>
-				)
-				; 1
+und3026;;PkmFachfunktion;S;;3026
+ermittleZutarifpunkteZuZuordnungen5273;;PkmFachfunktion;S;;5272
+ermittleVontarifpunkteZuZuordnungen5046;;PkmFachfunktion;S;;5046
+ErmittlePreisparameter;;;H;;"{:
+setzeVariable4002(
+	Vialiste
+	;ermittleWertZuSchluesselVonDatentabelle5070(
+		ermittleDatentabelle5262(6//)
+		; erzeugeListe3219(
+			ermittleNr5131(leseVariable4001(StartRelationscode))
+			; ermittleNr5131(leseVariable4001(ZielRelationscode))
 		)
 	)
 )
 }"
-und3026;;PkmFachfunktion;S;;3026
-ermittleZutarifpunkteZuZuordnungen5273;;PkmFachfunktion;S;;5272
-ermittleVontarifpunkteZuZuordnungen5046;;PkmFachfunktion;S;;5046
+ermittleNr5131;;PkmFachfunktion;S;;5131

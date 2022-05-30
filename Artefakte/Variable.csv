@@ -1,8 +1,11 @@
 Name;Kategorie;Beschreibung
 Standort;;
 ID_Bediengebiet;;
-Startpunkt;;
+StartTarifrelevanterpunkt;;
 Startpunktliste;;
 Zielpunktliste;;
 AD.StartTarifpunkteAnzeige;;
 AD.ZielTarifpunkteAnzeige;;
+ZielTarifrelevanterpunkt;;
+StartRelationscode;;
+ZielRelationscode;;

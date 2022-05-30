@@ -9,11 +9,21 @@ h2ps_berechneStandort;;Husst BerechnungsSchritt Funktionen;H;;"{:setzeVariable40
     )
 }"
 h2ps_berechneBediengebiet;;Husst BerechnungsSchritt Funktionen;H;;{:H2Pf_2_ermittleBediengebietVonOrtspunkt(leseVariable4001(Standort))}
-h2ps_berechneStartpunkt;;Husst BerechnungsSchritt Funktionen;H;;"{:setzeVariable4002(Startpunkt;H2Pf_3_ermittleStartpunktZuOrtspunkt(leseVariable4001(Standort)))}"
+h2ps_berechneStartpunkt;;Husst BerechnungsSchritt Funktionen;H;;"{:setzeVariable4002(StartTarifrelevanterpunkt;H2Pf_3_ermittleStartpunktZuOrtspunkt(leseVariable4001(Standort)))}"
 h2ps_berechneStartpunktliste;;Husst BerechnungsSchritt Funktionen;H;;"{:H2Pf_4_ermittleStartpunkte(1/OTPTyp Start/;leseVariable4001(ID_Bediengebiet))}"
 h2ps_berechneZielpunktliste;;Husst BerechnungsSchritt Funktionen;H;;"{:H2Pf_5_ermittleZielpunkte(2/OTPTyp Ziel/; leseVariable4001(ID_Bediengebiet))}"
 h2ps_;;Husst Testinitialisierung;H;;{:undefiniert}
 h2ps_berechneEingangsparameter;;Husst BerechnungsSchritt Funktionen;H;;{:undefiniert} / TODO Schnittstelle abstimmen /
+ErmittleStartpunktAuswahl;():Tarifpunkt;;H;;"{:setzeVariable4002(StartTarifrelevanterpunkt;
+	/ermittleEinzelauswahl(leseVariable4001(ad.StartTarifpunkteAnzeigeNr); listeElement3071( leseVariable4001(ad.StartTarifpunkteAnzeigeNr);1))/
+	ermittleTarifpunkt5035(listeElement3071(leseVariable4001(Startpunktliste); leseEingangsparameter4026(EP.RelationStartTarifpunktIndex)))
+	)
+}"
+ErmittleZielpunktAuswahl;():Tarifpunkt;;H;;"{:setzeVariable4002(ZielTarifrelevanterpunkt;
+	/ermittleEinzelauswahl(leseVariable4001(ad.StartTarifpunkteAnzeigeNr); listeElement3071( leseVariable4001(ad.StartTarifpunkteAnzeigeNr);1))/
+	ermittleTarifpunkt5035(listeElement3071(leseVariable4001(Zielpunktliste); leseEingangsparameter4026(EP.RelationZielTarifpunktIndex)))
+	)
+}"
 setzeVariable4002;;PkmFachfunktionen;S;;4002
 leseVariable4001;;PkmFachfunktionen;S;;4001
 leseEingangsparameter4026;;PkmFachfunktionen;S;;4026
@@ -21,7 +31,7 @@ ermittleWertZuSchluesselVonDatentabelle5070;;PkmFachfunktionen;S;;5070
 ermittleDatentabelle5262;;PkmFachfunktionen;S;;5262
 listeElement3071;;PkmFachfunktionen;S;;3071
 ermittleTarifpunkteVonReferenz5008;;PkmFachfunktionen;S;;5008
-ermittleTarifpunktreferenz5337;;PkmFachfunktionen;S;;5337
+ermittleTarifpunktreferenz5337;;PkmFachfunktion;S;;5337
 alsListe3238;;PkmFachfunktionen;S;;3238
 alsText3091;;PkmFachfunktionen;S;;3091
 istGleich3014;;PkmFachfunktionen;S;;3014
@@ -141,14 +151,32 @@ ermittleText;;;S;;5302
 wandleStartTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeVariable4002(AD.StartTarifpunkteAnzeige; wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Startpunktliste)))}"
 wandleZielTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeVariable4002(AD.ZielTarifpunkteAnzeige; wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Zielpunktliste)))}"
 ermittleEinzelauswahl;;;S;;3034
-ErmittleStartpunktAuswahl;():Tarifpunkt;;H;;"{:setzeVariable4002(Startpunkt;
-	/ermittleEinzelauswahl(leseVariable4001(ad.StartTarifpunkteAnzeigeNr); listeElement3071( leseVariable4001(ad.StartTarifpunkteAnzeigeNr);1))/
-	ermittleTarifpunkt5035(listeElement3071(leseVariable4001(Startpunktliste); leseEingangsparameter4026(EP.RelationStartTarifpunktIndex)))
-	)
-}"
 leseAusgangsparameter;;;S;;4038
-ErmittleZielpunktAuswahl;():Tarifpunkt;;H;;"{:setzeVariable4002(Startpunkt;
-	/ermittleEinzelauswahl(leseVariable4001(ad.StartTarifpunkteAnzeigeNr); listeElement3071( leseVariable4001(ad.StartTarifpunkteAnzeigeNr);1))/
-	ermittleTarifpunkt5035(listeElement3071(leseVariable4001(Zielpunktliste); leseEingangsparameter4026(EP.RelationZielTarifpunktIndex)))
+ErmittleRelcodes;;;H;;"{: erzeugeListe3219(
+	setzeVariable4002(
+		StartRelationscode
+		; listeElement3071(
+				 ermittleZutarifpunkteZuZuordnungen5273(
+		 		 	leseVariable4001(StartTarifrelevanterpunkt)
+					; HUSST-Tarifrelevanterpunkt-zu-HUSST-RelCode
+					; <Alle Verkehrsmittel>
+				)
+				; 1
+		)
 	)
+	;setzeVariable4002(
+		ZielRelationscode
+		; listeElement3071(
+				ermittleZutarifpunkteZuZuordnungen5273(
+		 		 	leseVariable4001(ZielTarifrelevanterpunkt)
+					; HUSST-Tarifrelevanterpunkt-zu-HUSST-RelCode
+					; <Alle Verkehrsmittel>
+				)
+				; 1
+		)
+	)
+)
 }"
+und3026;;PkmFachfunktion;S;;3026
+ermittleZutarifpunkteZuZuordnungen5273;;PkmFachfunktion;S;;5272
+ermittleVontarifpunkteZuZuordnungen5046;;PkmFachfunktion;S;;5046

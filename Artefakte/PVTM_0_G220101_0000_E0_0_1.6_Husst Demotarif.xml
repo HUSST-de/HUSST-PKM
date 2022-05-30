@@ -7,7 +7,7 @@
         <modulstatus>1</modulstatus>
         <modulspezifikation>1.6.0</modulspezifikation>
         <modulnamenszusatz/>
-        <speicherzeitpunkt>2022-05-30T15:09:02</speicherzeitpunkt>
+        <speicherzeitpunkt>2022-05-30T15:32:39</speicherzeitpunkt>
         <bearbeiter>HUSST2PKM</bearbeiter>
         <freigeber>HUSST2PKM</freigeber>
         <bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
@@ -623,7 +623,7 @@
             <name>AD-ZielTarifpunktAnzeige</name>
             <sequenz-matrix>
                 <sequenz ref="22">
-                    <text>wandleStartTarifpunktToAnzeigeDaten</text>
+                    <text>wandleZieltarifpunltToAnzeigeDaten</text>
                 </sequenz>
             </sequenz-matrix>
         </item>
@@ -1288,12 +1288,13 @@
     <abhaengigkeitskriterium-pool key="60"/>
     <identifikationsparameter-pool key="49">
         <item>
-            <nr>100</nr>
+            <nr>1</nr>
             <name>Sortengruppe</name>
             <wert-pool key="50">
                 <item xsi:type="XML-Identifikationsparameterwert-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <nr>1</nr>
                     <name>Verkaufssortengruppe Relation</name>
+                    <text-matrix/>
                 </item>
             </wert-pool>
         </item>

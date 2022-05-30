@@ -7,7 +7,7 @@
         <modulstatus>1</modulstatus>
         <modulspezifikation>1.6.0</modulspezifikation>
         <modulnamenszusatz/>
-        <speicherzeitpunkt>2022-05-30T15:03:40</speicherzeitpunkt>
+        <speicherzeitpunkt>2022-05-30T15:09:02</speicherzeitpunkt>
         <bearbeiter>HUSST2PKM</bearbeiter>
         <freigeber>HUSST2PKM</freigeber>
         <bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
@@ -620,7 +620,7 @@
             </sequenz-matrix>
         </item>
         <item>
-            <name>AD-StartTarifpunktAnzeige</name>
+            <name>AD-ZielTarifpunktAnzeige</name>
             <sequenz-matrix>
                 <sequenz ref="22">
                     <text>wandleStartTarifpunktToAnzeigeDaten</text>

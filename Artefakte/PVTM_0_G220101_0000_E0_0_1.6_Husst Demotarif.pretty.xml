@@ -6,7 +6,7 @@
         <modulstatus>1</modulstatus>
         <modulspezifikation>1.6.0</modulspezifikation>
         <modulnamenszusatz/>
-        <speicherzeitpunkt>2022-05-30T14:27:06</speicherzeitpunkt>
+        <speicherzeitpunkt>2022-05-30T14:35:59</speicherzeitpunkt>
         <bearbeiter>HUSST2PKM</bearbeiter>
         <freigeber>HUSST2PKM</freigeber>
         <bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
@@ -1302,8 +1302,7 @@
             <nr>100</nr>
             <name>Wabe A (HUSST Tarifpunkt)</name>
             <text-matrix>
-                <text ref="3">Wabe A</text>
-                <text ref="4">Wabe A</text>
+                <text ref="22">Wabe A</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifpunkttyp_1</typ>
@@ -1313,8 +1312,7 @@
             <nr>200</nr>
             <name>Wabe B (HUSST Tarifpunkt)</name>
             <text-matrix>
-                <text ref="3">Wabe B</text>
-                <text ref="4">Wabe B</text>
+                <text ref="22">Wabe B</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifpunkttyp_1</typ>
@@ -1324,8 +1322,7 @@
             <nr>300</nr>
             <name>Wabe C (HUSST Tarifpunkt)</name>
             <text-matrix>
-                <text ref="3">Wabe C</text>
-                <text ref="4">Wabe C</text>
+                <text ref="22">Wabe C</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifpunkttyp_1</typ>
@@ -1335,8 +1332,7 @@
             <nr>400</nr>
             <name>Wabe D (HUSST Tarifpunkt)</name>
             <text-matrix>
-                <text ref="3">Wabe D</text>
-                <text ref="4">Wabe D</text>
+                <text ref="22">Wabe D</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifpunkttyp_1</typ>
@@ -1346,8 +1342,7 @@
             <nr>500</nr>
             <name>Wabe E (HUSST Tarifpunkt)</name>
             <text-matrix>
-                <text ref="3">Wabe E</text>
-                <text ref="4">Wabe E</text>
+                <text ref="22">Wabe E</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifpunkttyp_1</typ>
@@ -1357,8 +1352,7 @@
             <nr>600</nr>
             <name>Wabe F (HUSST Tarifpunkt)</name>
             <text-matrix>
-                <text ref="3">Wabe F</text>
-                <text ref="4">Wabe F</text>
+                <text ref="22">Wabe F</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifpunkttyp_1</typ>
@@ -1367,7 +1361,9 @@
         <!--key 67--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000101</nr>
             <name>Haltestelle A1 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle A1</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1375,7 +1371,9 @@
         <!--key 68--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000102</nr>
             <name>Haltestelle A2 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle A2</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1383,7 +1381,9 @@
         <!--key 69--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000103</nr>
             <name>Haltestelle A3 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle A3</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1391,7 +1391,9 @@
         <!--key 70--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000201</nr>
             <name>Haltestelle B1 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle B1</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1399,7 +1401,9 @@
         <!--key 71--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000202</nr>
             <name>Haltestelle B2 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle B2</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1407,7 +1411,9 @@
         <!--key 72--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000203</nr>
             <name>Haltestelle B3 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle B3</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1415,7 +1421,9 @@
         <!--key 73--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000301</nr>
             <name>Haltestelle C1 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle C1</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1423,7 +1431,9 @@
         <!--key 74--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000302</nr>
             <name>Haltestelle C2 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle C2</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1431,7 +1441,9 @@
         <!--key 75--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000303</nr>
             <name>Haltestelle C3 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle C3</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1439,7 +1451,9 @@
         <!--key 76--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000401</nr>
             <name>Haltestelle D1 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle D1</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1447,7 +1461,9 @@
         <!--key 77--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000402</nr>
             <name>Haltestelle D2 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle D2</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1455,7 +1471,9 @@
         <!--key 78--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000403</nr>
             <name>Haltestelle D3 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle D3</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1463,7 +1481,9 @@
         <!--key 79--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000501</nr>
             <name>Haltestelle E1 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle E1</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1471,7 +1491,9 @@
         <!--key 80--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000502</nr>
             <name>Haltestelle E2 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle E2</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1479,7 +1501,9 @@
         <!--key 81--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000503</nr>
             <name>Haltestelle E3 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle E3</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1487,7 +1511,9 @@
         <!--key 82--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000601</nr>
             <name>Haltestelle F1 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle F1</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1495,7 +1521,9 @@
         <!--key 83--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000602</nr>
             <name>Haltestelle F2 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle F2</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1503,7 +1531,9 @@
         <!--key 84--><item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="XML-Tarifpunkt-Item">
             <nr>1000603</nr>
             <name>Haltestelle F3 (HUSST Ortspunkt)</name>
-            <text-matrix/>
+            <text-matrix>
+                <text ref="24">Haltestelle F3</text>
+            </text-matrix>
             <geobezug/>
             <typ>Ortspunkttyp_1</typ>
             <ortsbezug/>
@@ -1560,7 +1590,7 @@
             <nr>3002101</nr>
             <name>101 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">101</text>
+                <text ref="22">101</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1570,7 +1600,7 @@
             <nr>3002102</nr>
             <name>102 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">102</text>
+                <text ref="22">102</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1580,7 +1610,7 @@
             <nr>3002103</nr>
             <name>103 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">103</text>
+                <text ref="22">103</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1590,7 +1620,7 @@
             <nr>3002201</nr>
             <name>201 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">201</text>
+                <text ref="22">201</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1600,7 +1630,7 @@
             <nr>3002202</nr>
             <name>202 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">202</text>
+                <text ref="22">202</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1610,7 +1640,7 @@
             <nr>3002203</nr>
             <name>203 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">203</text>
+                <text ref="22">203</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1620,7 +1650,7 @@
             <nr>3002301</nr>
             <name>301 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">301</text>
+                <text ref="22">301</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1630,7 +1660,7 @@
             <nr>3002302</nr>
             <name>302 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">302</text>
+                <text ref="22">302</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1640,7 +1670,7 @@
             <nr>3002303</nr>
             <name>303 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">303</text>
+                <text ref="22">303</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1650,7 +1680,7 @@
             <nr>3002401</nr>
             <name>401 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">401</text>
+                <text ref="22">401</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1660,7 +1690,7 @@
             <nr>3002402</nr>
             <name>402 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">402</text>
+                <text ref="22">402</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1670,7 +1700,7 @@
             <nr>3002403</nr>
             <name>403 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">403</text>
+                <text ref="22">403</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1680,7 +1710,7 @@
             <nr>3002501</nr>
             <name>501 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">501</text>
+                <text ref="22">501</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1690,7 +1720,7 @@
             <nr>3002502</nr>
             <name>502 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">502</text>
+                <text ref="22">502</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1700,7 +1730,7 @@
             <nr>3002503</nr>
             <name>503 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">503</text>
+                <text ref="22">503</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1710,7 +1740,7 @@
             <nr>3002601</nr>
             <name>601 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">601</text>
+                <text ref="22">601</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1720,7 +1750,7 @@
             <nr>3002602</nr>
             <name>602 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">602</text>
+                <text ref="22">602</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1730,7 +1760,7 @@
             <nr>3002603</nr>
             <name>603 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">603</text>
+                <text ref="22">603</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1740,7 +1770,7 @@
             <nr>3009101</nr>
             <name>101 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">101</text>
+                <text ref="22">101</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1750,7 +1780,7 @@
             <nr>3009102</nr>
             <name>102 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">102</text>
+                <text ref="22">102</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1760,7 +1790,7 @@
             <nr>3009103</nr>
             <name>103 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">103</text>
+                <text ref="22">103</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1770,7 +1800,7 @@
             <nr>3009201</nr>
             <name>201 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">201</text>
+                <text ref="22">201</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1780,7 +1810,7 @@
             <nr>3009202</nr>
             <name>202 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">202</text>
+                <text ref="22">202</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1790,7 +1820,7 @@
             <nr>3009203</nr>
             <name>203 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">203</text>
+                <text ref="22">203</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1800,7 +1830,7 @@
             <nr>3009301</nr>
             <name>301 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">301</text>
+                <text ref="22">301</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1810,7 +1840,7 @@
             <nr>3009302</nr>
             <name>302 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">302</text>
+                <text ref="22">302</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1820,7 +1850,7 @@
             <nr>3009303</nr>
             <name>303 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">303</text>
+                <text ref="22">303</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1830,7 +1860,7 @@
             <nr>3009401</nr>
             <name>401 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">401</text>
+                <text ref="22">401</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1840,7 +1870,7 @@
             <nr>3009402</nr>
             <name>402 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">402</text>
+                <text ref="22">402</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1850,7 +1880,7 @@
             <nr>3009403</nr>
             <name>403 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">403</text>
+                <text ref="22">403</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1860,7 +1890,7 @@
             <nr>3009501</nr>
             <name>501 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">501</text>
+                <text ref="22">501</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1870,7 +1900,7 @@
             <nr>3009502</nr>
             <name>502 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">502</text>
+                <text ref="22">502</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1880,7 +1910,7 @@
             <nr>3009503</nr>
             <name>503 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">503</text>
+                <text ref="22">503</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1890,7 +1920,7 @@
             <nr>3009601</nr>
             <name>601 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">601</text>
+                <text ref="22">601</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1900,7 +1930,7 @@
             <nr>3009602</nr>
             <name>602 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">602</text>
+                <text ref="22">602</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>
@@ -1910,7 +1940,7 @@
             <nr>3009603</nr>
             <name>603 (HUSST Tarifrelevanterpunkt)</name>
             <text-matrix>
-                <text ref="3">603</text>
+                <text ref="22">603</text>
             </text-matrix>
             <geobezug/>
             <typ>Tarifrelevanterpunkt</typ>

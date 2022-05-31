@@ -7,7 +7,7 @@
         <modulstatus>1</modulstatus>
         <modulspezifikation>1.6.0</modulspezifikation>
         <modulnamenszusatz/>
-        <speicherzeitpunkt>2022-05-31T13:57:32</speicherzeitpunkt>
+        <speicherzeitpunkt>2022-05-31T14:17:01</speicherzeitpunkt>
         <bearbeiter>HUSST2PKM</bearbeiter>
         <freigeber>HUSST2PKM</freigeber>
         <bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
@@ -736,6 +736,13 @@
                         <zahl>0</zahl>
                         <text>Preisstufe 1</text>
                         <text>PST1</text>
+                    </liste>
+                    <liste>
+                        <zahl>100</zahl>
+                        <zahl>100</zahl>
+                        <zahl>1</zahl>
+                        <text>Preisstufe 2</text>
+                        <text>PST2</text>
                     </liste>
                 </liste>
                 <liste>
@@ -2554,13 +2561,20 @@
             <geobezug></geobezug>
             <tarifpunktfolge-pool/>
         </item>
+        <item xsi:type="XML-Wegevariante-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>1</nr>
+            <name>mit Umweg</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <tarifpunktfolge-pool/>
+        </item>
     </wegevariante-pool>
     <bewertungstyp-pool key="50">
         <item xsi:type="XML-Bewertungstyp-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>Preisstufe</name>
         </item>
     </bewertungstyp-pool>
-    <bewertungsdaten-pool key="146">
+    <bewertungsdaten-pool key="147">
         <item>
             <name>PST1</name>
             <wert>
@@ -2609,45 +2623,56 @@
             <bezug xsi:type="XML-Bewertungsdatenbezug-Entry" ref="141">
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="73">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="73">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">146</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="74">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="74">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
                     </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">149</ueber>
                     </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">150</ueber>
                     </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">151</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">152</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="74">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="74">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">146</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">146</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
                     </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">149</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">150</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="75">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">146</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">149</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">150</ueber>
+                    </nach>
+                </von>
+                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="76">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
@@ -2658,10 +2683,7 @@
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">149</ueber>
                     </nach>
                 </von>
-                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="76">
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">146</ueber>
-                    </nach>
+                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="77">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
@@ -2669,31 +2691,28 @@
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
                     </nach>
                 </von>
-                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="77">
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">146</ueber>
-                    </nach>
+                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="78">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
                         <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
                 </von>
-                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="78">
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">146</ueber>
+                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="73">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="73">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="146">148</ueber>
                     </nach>
                 </von>
             </bezug>
         </typ>
     </bewertungsdaten-matrix>
     <bewertungsausnahme-matrix/>
-    <linie-pool key="173"/>
-    <verkehrsmitteltyp-pool key="174"/>
+    <linie-pool key="174"/>
+    <verkehrsmitteltyp-pool key="175"/>
     <verkehrsmittellinienbezug-pool key="141">
         <item xsi:type="XML-Verkehrsmittellinienbezug-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>Alle Verkehrsmittel</name>
         </item>
     </verkehrsmittellinienbezug-pool>
-    <bezahlart-pool key="175"/>
+    <bezahlart-pool key="176"/>
     <waehrung-pool key="57">
         <item xsi:type="XML-Waehrung-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>10536</nr>
@@ -2701,20 +2720,20 @@
             <text-matrix/>
         </item>
     </waehrung-pool>
-    <zahlungsintervall-pool key="176"/>
-    <mitnahmetyp-pool key="178"/>
-    <rabattmedientyp-pool key="179"/>
-    <modulkontext-pool key="180">
+    <zahlungsintervall-pool key="177"/>
+    <mitnahmetyp-pool key="179"/>
+    <rabattmedientyp-pool key="180"/>
+    <modulkontext-pool key="181">
         <item xsi:type="XML-Modulkontext-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>1</nr>
             <name>HUSST Endgerät (Standard) Modulkontext</name>
         </item>
     </modulkontext-pool>
-    <spezialbedingung-pool key="181"/>
-    <tagesbedingung-pool key="182"/>
-    <tageszeitbedingung-pool key="183"/>
-    <zeitraumbedingung-pool key="184"/>
-    <tarifpunktbedingung-pool key="185"/>
+    <spezialbedingung-pool key="182"/>
+    <tagesbedingung-pool key="183"/>
+    <tageszeitbedingung-pool key="184"/>
+    <zeitraumbedingung-pool key="185"/>
+    <tarifpunktbedingung-pool key="186"/>
     <bewertungsbedingung-pool key="51">
         <item>
             <name>Bewertungsbedingung Preisstufe 1</name>
@@ -2771,25 +2790,25 @@
             </werte>
         </item>
     </bewertungsbedingung-pool>
-    <geosegmentbedingung-pool key="186"/>
-    <verkehrsmittellinienbedingung-pool key="187"/>
-    <bezahlartbedingung-pool key="188"/>
-    <zahlungsintervallbedingung-pool key="189"/>
-    <mitnahmebedingung-pool key="190"/>
-    <rabattmedienbedingung-pool key="191"/>
-    <modulkontextbedingung-pool key="192">
+    <geosegmentbedingung-pool key="187"/>
+    <verkehrsmittellinienbedingung-pool key="188"/>
+    <bezahlartbedingung-pool key="189"/>
+    <zahlungsintervallbedingung-pool key="190"/>
+    <mitnahmebedingung-pool key="191"/>
+    <rabattmedienbedingung-pool key="192"/>
+    <modulkontextbedingung-pool key="193">
         <item xsi:type="XML-Modulkontextbedingung-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>HUSST Endgerät (Standard) Modulkontextbedingung</name>
             <element>
-                <ref>180</ref>
+                <ref>181</ref>
             </element>
         </item>
     </modulkontextbedingung-pool>
-    <bifainterpretation-pool key="193"/>
-    <nummerninterpretation-pool key="194"/>
-    <bitleisteninterpretation-pool key="195"/>
-    <raumnummerninterpretation-pool key="196"/>
-    <schluessel-pool key="197"/>
+    <bifainterpretation-pool key="194"/>
+    <nummerninterpretation-pool key="195"/>
+    <bitleisteninterpretation-pool key="196"/>
+    <raumnummerninterpretation-pool key="197"/>
+    <schluessel-pool key="198"/>
     <kommentar-pool/>
     <signatur/>
     <annotation/>

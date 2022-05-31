@@ -7,7 +7,7 @@
         <modulstatus>1</modulstatus>
         <modulspezifikation>1.6.0</modulspezifikation>
         <modulnamenszusatz/>
-        <speicherzeitpunkt>2022-05-31T11:03:50</speicherzeitpunkt>
+        <speicherzeitpunkt>2022-05-31T14:17:01</speicherzeitpunkt>
         <bearbeiter>HUSST2PKM</bearbeiter>
         <freigeber>HUSST2PKM</freigeber>
         <bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
@@ -733,168 +733,196 @@
                     <liste>
                         <zahl>100</zahl>
                         <zahl>100</zahl>
-                        <text></text>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 1</text>
+                        <text>PST1</text>
+                    </liste>
+                    <liste>
+                        <zahl>100</zahl>
+                        <zahl>100</zahl>
                         <zahl>1</zahl>
+                        <text>Preisstufe 2</text>
+                        <text>PST2</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>100</zahl>
                         <zahl>200</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 2</text>
+                        <text>PST2</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>100</zahl>
                         <zahl>300</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 3</text>
+                        <text>PST3</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>100</zahl>
                         <zahl>400</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 4</text>
+                        <text>PST4</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>100</zahl>
                         <zahl>500</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 5</text>
+                        <text>PST5</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>100</zahl>
                         <zahl>600</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 6</text>
+                        <text>PST6</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>200</zahl>
                         <zahl>200</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 1</text>
+                        <text>PST1</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>200</zahl>
                         <zahl>300</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 2</text>
+                        <text>PST2</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>200</zahl>
                         <zahl>400</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 1</text>
+                        <text>PST1</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>200</zahl>
                         <zahl>500</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 3</text>
+                        <text>PST3</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>200</zahl>
                         <zahl>600</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 4</text>
+                        <text>PST4</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>300</zahl>
                         <zahl>300</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 1</text>
+                        <text>PST1</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>300</zahl>
                         <zahl>400</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 2</text>
+                        <text>PST2</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>300</zahl>
                         <zahl>500</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 3</text>
+                        <text>PST3</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>300</zahl>
                         <zahl>600</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 4</text>
+                        <text>PST4</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>400</zahl>
                         <zahl>400</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 1</text>
+                        <text>PST1</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>400</zahl>
                         <zahl>500</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 2</text>
+                        <text>PST2</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>400</zahl>
                         <zahl>600</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 3</text>
+                        <text>PST3</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>500</zahl>
                         <zahl>500</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 1</text>
+                        <text>PST1</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>500</zahl>
                         <zahl>600</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 2</text>
+                        <text>PST2</text>
                     </liste>
                 </liste>
                 <liste>
                     <liste>
                         <zahl>600</zahl>
                         <zahl>600</zahl>
-                        <text></text>
-                        <zahl>1</zahl>
+                        <zahl>0</zahl>
+                        <text>Preisstufe 1</text>
+                        <text>PST1</text>
                     </liste>
                 </liste>
             </datensatzvalue>
@@ -923,8 +951,24 @@
                 </sequenz>
             </sequenz-matrix>
         </item>
+        <item>
+            <name>AD-VerkaufsSortengrupperelationAnzeige</name>
+            <sequenz-matrix>
+                <sequenz ref="24">
+                    <text>TODO</text>
+                </sequenz>
+            </sequenz-matrix>
+        </item>
+        <item>
+            <name>AD-ViaAuswahlAnzeige</name>
+            <sequenz-matrix>
+                <sequenz ref="31">
+                    <text>TODO</text>
+                </sequenz>
+            </sequenz-matrix>
+        </item>
     </ausgangsdaten-pool>
-    <ausgangsdatenfamilie-pool key="47"/>
+    <ausgangsdatenfamilie-pool key="49"/>
     <organisation-pool>
         <item>
             <nr>1</nr>
@@ -934,8 +978,8 @@
             </anforderung>
         </item>
     </organisation-pool>
-    <efmprodukt-pool key="61"/>
-    <tarifprodukt-pool key="62">
+    <efmprodukt-pool key="63"/>
+    <tarifprodukt-pool key="64">
         <item xsi:type="XML-Tarifprodukt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>1001</nr>
             <name>Einzelfahrschein</name>
@@ -985,12 +1029,12 @@
             </ungueltigkeitszeitpunktsausnahme-table>
             <preisdaten-table>
                 <waehrung>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
                 </waehrung>
                 <bezahlartbedingung/>
                 <zahlungsintervallbedingung/>
@@ -999,12 +1043,12 @@
                 <zeitraumbedingung/>
                 <tarifpunktbedingung/>
                 <bewertungsbedingung>
-                    <ref>49</ref>
-                    <ref>50</ref>
                     <ref>51</ref>
                     <ref>52</ref>
                     <ref>53</ref>
                     <ref>54</ref>
+                    <ref>55</ref>
+                    <ref>56</ref>
                 </bewertungsbedingung>
                 <verkehrsmittellinienbedingung/>
                 <mitnahmebedingung/>
@@ -1090,8 +1134,8 @@
             </nachfolgeausnahme-table>
             <efmprodukt/>
             <identifikation>
-                <ref>58</ref>
-                <ref>59</ref>
+                <ref>60</ref>
+                <ref>61</ref>
             </identifikation>
             <kontingentierung/>
             <preisanpassung>false</preisanpassung>
@@ -1146,12 +1190,12 @@
             </ungueltigkeitszeitpunktsausnahme-table>
             <preisdaten-table>
                 <waehrung>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
                 </waehrung>
                 <bezahlartbedingung/>
                 <zahlungsintervallbedingung/>
@@ -1160,12 +1204,12 @@
                 <zeitraumbedingung/>
                 <tarifpunktbedingung/>
                 <bewertungsbedingung>
-                    <ref>49</ref>
-                    <ref>50</ref>
                     <ref>51</ref>
                     <ref>52</ref>
                     <ref>53</ref>
                     <ref>54</ref>
+                    <ref>55</ref>
+                    <ref>56</ref>
                 </bewertungsbedingung>
                 <verkehrsmittellinienbedingung/>
                 <mitnahmebedingung/>
@@ -1251,8 +1295,8 @@
             </nachfolgeausnahme-table>
             <efmprodukt/>
             <identifikation>
-                <ref>58</ref>
-                <ref>59</ref>
+                <ref>60</ref>
+                <ref>61</ref>
             </identifikation>
             <kontingentierung/>
             <preisanpassung>false</preisanpassung>
@@ -1307,12 +1351,12 @@
             </ungueltigkeitszeitpunktsausnahme-table>
             <preisdaten-table>
                 <waehrung>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
                 </waehrung>
                 <bezahlartbedingung/>
                 <zahlungsintervallbedingung/>
@@ -1321,12 +1365,12 @@
                 <zeitraumbedingung/>
                 <tarifpunktbedingung/>
                 <bewertungsbedingung>
-                    <ref>49</ref>
-                    <ref>50</ref>
                     <ref>51</ref>
                     <ref>52</ref>
                     <ref>53</ref>
                     <ref>54</ref>
+                    <ref>55</ref>
+                    <ref>56</ref>
                 </bewertungsbedingung>
                 <verkehrsmittellinienbedingung/>
                 <mitnahmebedingung/>
@@ -1412,8 +1456,8 @@
             </nachfolgeausnahme-table>
             <efmprodukt/>
             <identifikation>
-                <ref>58</ref>
                 <ref>60</ref>
+                <ref>62</ref>
             </identifikation>
             <kontingentierung/>
             <preisanpassung>false</preisanpassung>
@@ -1468,12 +1512,12 @@
             </ungueltigkeitszeitpunktsausnahme-table>
             <preisdaten-table>
                 <waehrung>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
-                    <ref>55</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
+                    <ref>57</ref>
                 </waehrung>
                 <bezahlartbedingung/>
                 <zahlungsintervallbedingung/>
@@ -1482,12 +1526,12 @@
                 <zeitraumbedingung/>
                 <tarifpunktbedingung/>
                 <bewertungsbedingung>
-                    <ref>49</ref>
-                    <ref>50</ref>
                     <ref>51</ref>
                     <ref>52</ref>
                     <ref>53</ref>
                     <ref>54</ref>
+                    <ref>55</ref>
+                    <ref>56</ref>
                 </bewertungsbedingung>
                 <verkehrsmittellinienbedingung/>
                 <mitnahmebedingung/>
@@ -1573,24 +1617,24 @@
             </nachfolgeausnahme-table>
             <efmprodukt/>
             <identifikation>
-                <ref>58</ref>
                 <ref>60</ref>
+                <ref>62</ref>
             </identifikation>
             <kontingentierung/>
             <preisanpassung>false</preisanpassung>
             <extNr>1004</extNr>
         </item>
     </tarifprodukt-pool>
-    <fremdprodukt-pool key="66"/>
-    <produktgruppe-pool key="67"/>
-    <kontingentierung-pool key="68"/>
-    <nachfolgekriterium-pool key="69"/>
-    <abhaengigkeitskriterium-pool key="70"/>
-    <identifikationsparameter-pool key="56">
+    <fremdprodukt-pool key="68"/>
+    <produktgruppe-pool key="69"/>
+    <kontingentierung-pool key="70"/>
+    <nachfolgekriterium-pool key="71"/>
+    <abhaengigkeitskriterium-pool key="72"/>
+    <identifikationsparameter-pool key="58">
         <item>
             <nr>100</nr>
             <name>Sortengruppe</name>
-            <wert-pool key="58">
+            <wert-pool key="60">
                 <item xsi:type="XML-Identifikationsparameterwert-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <nr>1</nr>
                     <name>Verkaufssortengruppe Relation</name>
@@ -1601,7 +1645,7 @@
         <item>
             <nr>101</nr>
             <name>Tarifart</name>
-            <wert-pool key="59">
+            <wert-pool key="61">
                 <item xsi:type="XML-Identifikationsparameterwert-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                     <nr>1</nr>
                     <name>Barfahrausweise</name>
@@ -1615,7 +1659,7 @@
             </wert-pool>
         </item>
     </identifikationsparameter-pool>
-    <tarifpunkt-pool key="71">
+    <tarifpunkt-pool key="73">
         <item xsi:type="XML-Tarifpunkt-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>100</nr>
             <name>Wabe A (HUSST Tarifpunkt)</name>
@@ -2265,9 +2309,9 @@
             <ortsbezug/>
         </item>
     </tarifpunkt-pool>
-    <tarifpunktgruppe-pool key="137"/>
-    <tarifpunktreferenz-pool key="138"/>
-    <zuordnungstyp-pool key="140">
+    <tarifpunktgruppe-pool key="139"/>
+    <tarifpunktreferenz-pool key="140"/>
+    <zuordnungstyp-pool key="142">
         <item xsi:type="XML-Zuordnungstyp-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>HUSST-Ortspunkt-zu-Tarifrelevanterpunkt-mit-OTPTyp-1-und-Bediengebiet-1</name>
         </item>
@@ -2279,14 +2323,8 @@
         </item>
     </zuordnungstyp-pool>
     <zuordnungsdaten-matrix>
-        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="140" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <bezug ref="139">
-                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="77">
-                    <zu>119</zu>
-                </von>
-                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="78">
-                    <zu>120</zu>
-                </von>
+        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="142" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <bezug ref="141">
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="79">
                     <zu>121</zu>
                 </von>
@@ -2335,16 +2373,16 @@
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="94">
                     <zu>136</zu>
                 </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="95">
+                    <zu>137</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="96">
+                    <zu>138</zu>
+                </von>
             </bezug>
         </typ>
-        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="141" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <bezug ref="139">
-                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="77">
-                    <zu>101</zu>
-                </von>
-                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="78">
-                    <zu>102</zu>
-                </von>
+        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="143" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <bezug ref="141">
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="79">
                     <zu>103</zu>
                 </von>
@@ -2393,137 +2431,150 @@
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="94">
                     <zu>118</zu>
                 </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="95">
+                    <zu>119</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="96">
+                    <zu>120</zu>
+                </von>
             </bezug>
         </typ>
-        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="142" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <bezug ref="139">
-                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="101">
-                    <zu>95</zu>
-                </von>
-                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="102">
-                    <zu>95</zu>
-                </von>
+        <typ xsi:type="XML-Zuordnungsdatentyp-Entry" ref="144" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <bezug ref="141">
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="103">
-                    <zu>95</zu>
+                    <zu>97</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="104">
-                    <zu>96</zu>
+                    <zu>97</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="105">
-                    <zu>96</zu>
+                    <zu>97</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="106">
-                    <zu>96</zu>
+                    <zu>98</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="107">
-                    <zu>97</zu>
+                    <zu>98</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="108">
-                    <zu>97</zu>
+                    <zu>98</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="109">
-                    <zu>97</zu>
+                    <zu>99</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="110">
-                    <zu>98</zu>
+                    <zu>99</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="111">
-                    <zu>98</zu>
+                    <zu>99</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="112">
-                    <zu>98</zu>
+                    <zu>100</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="113">
-                    <zu>99</zu>
+                    <zu>100</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="114">
-                    <zu>99</zu>
+                    <zu>100</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="115">
-                    <zu>99</zu>
+                    <zu>101</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="116">
-                    <zu>100</zu>
+                    <zu>101</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="117">
-                    <zu>100</zu>
+                    <zu>101</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="118">
-                    <zu>100</zu>
+                    <zu>102</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="119">
-                    <zu>95</zu>
+                    <zu>102</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="120">
-                    <zu>95</zu>
+                    <zu>102</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="121">
-                    <zu>95</zu>
+                    <zu>97</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="122">
-                    <zu>96</zu>
+                    <zu>97</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="123">
-                    <zu>96</zu>
+                    <zu>97</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="124">
-                    <zu>96</zu>
+                    <zu>98</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="125">
-                    <zu>97</zu>
+                    <zu>98</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="126">
-                    <zu>97</zu>
+                    <zu>98</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="127">
-                    <zu>97</zu>
+                    <zu>99</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="128">
-                    <zu>98</zu>
+                    <zu>99</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="129">
-                    <zu>98</zu>
+                    <zu>99</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="130">
-                    <zu>98</zu>
+                    <zu>100</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="131">
-                    <zu>99</zu>
+                    <zu>100</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="132">
-                    <zu>99</zu>
+                    <zu>100</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="133">
-                    <zu>99</zu>
+                    <zu>101</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="134">
-                    <zu>100</zu>
+                    <zu>101</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="135">
-                    <zu>100</zu>
+                    <zu>101</zu>
                 </von>
                 <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="136">
-                    <zu>100</zu>
+                    <zu>102</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="137">
+                    <zu>102</zu>
+                </von>
+                <von xsi:type="XML-Zuordnungsdatenvon-Entry" ref="138">
+                    <zu>102</zu>
                 </von>
             </bezug>
         </typ>
     </zuordnungsdaten-matrix>
     <zuordnungsausnahme-matrix/>
-    <wegevariante-pool key="143">
+    <wegevariante-pool key="145">
+        <item xsi:type="XML-Wegevariante-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <nr>0</nr>
+            <name>Alle Wege (kein Via)</name>
+            <text-matrix/>
+            <geobezug></geobezug>
+            <tarifpunktfolge-pool/>
+        </item>
         <item xsi:type="XML-Wegevariante-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>1</nr>
-            <name>Alle Wege</name>
+            <name>mit Umweg</name>
             <text-matrix/>
             <geobezug></geobezug>
             <tarifpunktfolge-pool/>
         </item>
     </wegevariante-pool>
-    <bewertungstyp-pool key="48">
+    <bewertungstyp-pool key="50">
         <item xsi:type="XML-Bewertungstyp-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>Preisstufe</name>
         </item>
     </bewertungstyp-pool>
-    <bewertungsdaten-pool key="144">
+    <bewertungsdaten-pool key="147">
         <item>
             <name>PST1</name>
             <wert>
@@ -2568,121 +2619,126 @@
         </item>
     </bewertungsdaten-pool>
     <bewertungsdaten-matrix>
-        <typ xsi:type="XML-Bewertungsdatentyp-Entry" ref="48" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <bezug xsi:type="XML-Bewertungsdatenbezug-Entry" ref="139">
-                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="71">
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="71">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">144</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="72">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">145</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="73">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">146</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="74">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">147</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">148</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">149</ueber>
-                    </nach>
-                </von>
-                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="72">
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="72">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">144</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="73">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">145</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="74">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">144</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">146</ueber>
-                    </nach>
-                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">147</ueber>
-                    </nach>
-                </von>
+        <typ xsi:type="XML-Bewertungsdatentyp-Entry" ref="50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <bezug xsi:type="XML-Bewertungsdatenbezug-Entry" ref="141">
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="73">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="73">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">144</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="74">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">145</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">146</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">149</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">147</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">150</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">151</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">152</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="74">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="74">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">144</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">145</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">146</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">149</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">150</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="75">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="75">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">144</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
                     </nach>
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">145</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">149</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">150</ueber>
                     </nach>
                 </von>
                 <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="76">
                     <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="76">
-                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="143">144</ueber>
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">149</ueber>
+                    </nach>
+                </von>
+                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="77">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="77">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
+                    </nach>
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">148</ueber>
+                    </nach>
+                </von>
+                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="78">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="78">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="145">147</ueber>
+                    </nach>
+                </von>
+                <von xsi:type="XML-Bewertungsdatenvon-Entry" ref="73">
+                    <nach xsi:type="XML-Bewertungsdatennach-Entry" ref="73">
+                        <ueber xsi:type="XML-Bewertungsdatenueber-Entry" ref="146">148</ueber>
                     </nach>
                 </von>
             </bezug>
         </typ>
     </bewertungsdaten-matrix>
     <bewertungsausnahme-matrix/>
-    <linie-pool key="171"/>
-    <verkehrsmitteltyp-pool key="172"/>
-    <verkehrsmittellinienbezug-pool key="139">
+    <linie-pool key="174"/>
+    <verkehrsmitteltyp-pool key="175"/>
+    <verkehrsmittellinienbezug-pool key="141">
         <item xsi:type="XML-Verkehrsmittellinienbezug-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>Alle Verkehrsmittel</name>
         </item>
     </verkehrsmittellinienbezug-pool>
-    <bezahlart-pool key="173"/>
-    <waehrung-pool key="55">
+    <bezahlart-pool key="176"/>
+    <waehrung-pool key="57">
         <item xsi:type="XML-Waehrung-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>10536</nr>
             <name>Euro-Cent</name>
             <text-matrix/>
         </item>
     </waehrung-pool>
-    <zahlungsintervall-pool key="174"/>
-    <mitnahmetyp-pool key="176"/>
-    <rabattmedientyp-pool key="177"/>
-    <modulkontext-pool key="178">
+    <zahlungsintervall-pool key="177"/>
+    <mitnahmetyp-pool key="179"/>
+    <rabattmedientyp-pool key="180"/>
+    <modulkontext-pool key="181">
         <item xsi:type="XML-Modulkontext-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <nr>1</nr>
             <name>HUSST Endgerät (Standard) Modulkontext</name>
         </item>
     </modulkontext-pool>
-    <spezialbedingung-pool key="179"/>
-    <tagesbedingung-pool key="180"/>
-    <tageszeitbedingung-pool key="181"/>
-    <zeitraumbedingung-pool key="182"/>
-    <tarifpunktbedingung-pool key="183"/>
-    <bewertungsbedingung-pool key="49">
+    <spezialbedingung-pool key="182"/>
+    <tagesbedingung-pool key="183"/>
+    <tageszeitbedingung-pool key="184"/>
+    <zeitraumbedingung-pool key="185"/>
+    <tarifpunktbedingung-pool key="186"/>
+    <bewertungsbedingung-pool key="51">
         <item>
             <name>Bewertungsbedingung Preisstufe 1</name>
             <bewertungstyp>
-                <ref>48</ref>
+                <ref>50</ref>
             </bewertungstyp>
             <werte>
                 <zahl>1</zahl>
@@ -2691,7 +2747,7 @@
         <item>
             <name>Bewertungsbedingung Preisstufe 2</name>
             <bewertungstyp>
-                <ref>48</ref>
+                <ref>50</ref>
             </bewertungstyp>
             <werte>
                 <zahl>2</zahl>
@@ -2700,7 +2756,7 @@
         <item>
             <name>Bewertungsbedingung Preisstufe 3</name>
             <bewertungstyp>
-                <ref>48</ref>
+                <ref>50</ref>
             </bewertungstyp>
             <werte>
                 <zahl>3</zahl>
@@ -2709,7 +2765,7 @@
         <item>
             <name>Bewertungsbedingung Preisstufe 4</name>
             <bewertungstyp>
-                <ref>48</ref>
+                <ref>50</ref>
             </bewertungstyp>
             <werte>
                 <zahl>4</zahl>
@@ -2718,7 +2774,7 @@
         <item>
             <name>Bewertungsbedingung Preisstufe 5</name>
             <bewertungstyp>
-                <ref>48</ref>
+                <ref>50</ref>
             </bewertungstyp>
             <werte>
                 <zahl>5</zahl>
@@ -2727,32 +2783,32 @@
         <item>
             <name>Bewertungsbedingung Preisstufe 6</name>
             <bewertungstyp>
-                <ref>48</ref>
+                <ref>50</ref>
             </bewertungstyp>
             <werte>
                 <zahl>6</zahl>
             </werte>
         </item>
     </bewertungsbedingung-pool>
-    <geosegmentbedingung-pool key="184"/>
-    <verkehrsmittellinienbedingung-pool key="185"/>
-    <bezahlartbedingung-pool key="186"/>
-    <zahlungsintervallbedingung-pool key="187"/>
-    <mitnahmebedingung-pool key="188"/>
-    <rabattmedienbedingung-pool key="189"/>
-    <modulkontextbedingung-pool key="190">
+    <geosegmentbedingung-pool key="187"/>
+    <verkehrsmittellinienbedingung-pool key="188"/>
+    <bezahlartbedingung-pool key="189"/>
+    <zahlungsintervallbedingung-pool key="190"/>
+    <mitnahmebedingung-pool key="191"/>
+    <rabattmedienbedingung-pool key="192"/>
+    <modulkontextbedingung-pool key="193">
         <item xsi:type="XML-Modulkontextbedingung-Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <name>HUSST Endgerät (Standard) Modulkontextbedingung</name>
             <element>
-                <ref>178</ref>
+                <ref>181</ref>
             </element>
         </item>
     </modulkontextbedingung-pool>
-    <bifainterpretation-pool key="191"/>
-    <nummerninterpretation-pool key="192"/>
-    <bitleisteninterpretation-pool key="193"/>
-    <raumnummerninterpretation-pool key="194"/>
-    <schluessel-pool key="195"/>
+    <bifainterpretation-pool key="194"/>
+    <nummerninterpretation-pool key="195"/>
+    <bitleisteninterpretation-pool key="196"/>
+    <raumnummerninterpretation-pool key="197"/>
+    <schluessel-pool key="198"/>
     <kommentar-pool/>
     <signatur/>
     <annotation/>

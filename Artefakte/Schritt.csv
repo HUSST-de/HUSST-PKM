@@ -8,14 +8,16 @@ s5.2 AuswahlStartTarifpunkt;B;ErmittleStartpunktAuswahl;;s6
 s6;B;h2ps_berechneZielpunktliste;;s6.1
 s6.1;A;AD-ZielTarifpunktAnzeige;;s6.2
 s6.2;B;ErmittleZielpunktAuswahl;;s7 TarifrelevantePunkteZuRelcode
+s7 TarifrelevantePunkteZuRelcode;B;ErmittleRelcodes;;s7.0 Relcodes zu Preisparameter (Tarifpunkte/Via)
 s0;B;h2ps_;;s1
 s1;B;h2ps_berechneEingangsparameter;;s2
-s7 TarifrelevantePunkteZuRelcode;B;ErmittleRelcodes;;s7.0 Relcodes zu Preisparameter (Tarifpunkte/Via)
 s7.0 Relcodes zu Preisparameter (Tarifpunkte/Via);B;ErmittleViaListe;;s7.1 Ausgangsdaten Viaauswahl
+s7.1 Ausgangsdaten Viaauswahl;A;AD-ViaAuswahlAnzeige;;s7.2 ErmittleViaAuswahl
 s10 LadeRelationsverkaufSortenruppe;B;ErmittleVerkaufsSortengruppeRelation;;s10.1
 s10.1;A;AD-VerkaufsSortengrupperelationAnzeige;;s10.2
-s10.2;B;ErmittleVerkaufsSortengruppeRelationAuswahl;;s11 ErmittelePreis
-s11 ErmittelePreis;B;ErmittlePreis;;
-s7.1 Ausgangsdaten Viaauswahl;A;AD-ViaAuswahlAnzeige;;s7.2 ErmittleViaAuswahl
+s10.2;B;ErmittleVerkaufsSortengruppeRelationAuswahl;;s11 ErmittelePreisdaten
+s11 ErmittelePreisdaten;B;ErmittlePreisdaten;;s11.1 ErmittlePreisdetail
 s7.2 ErmittleViaAuswahl;B;ErmittleViaListeAuswahl;;s7.3 SetzteVerkaufsViaDaten
 s7.3 SetzteVerkaufsViaDaten;B;SetzePreisparameter;;s10 LadeRelationsverkaufSortenruppe
+s11.1 ErmittlePreisdetail;B;ErmittlePreisdetails;;s12
+s12;A;AD-TicketDruck;;

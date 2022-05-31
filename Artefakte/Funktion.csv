@@ -180,7 +180,7 @@ leseAusgangsparameter;;;S;;4038
 und3026;;PkmFachfunktion;S;;3026
 ermittleZutarifpunkteZuZuordnungen5273;;PkmFachfunktion;S;;5272
 ermittleVontarifpunkteZuZuordnungen5046;;PkmFachfunktion;S;;5046
-ErmittlePreisparameter;;;H;;"{:
+ErmittleViaListe;;;H;;"{:
 setzeVariable4002(
 	Vialiste
 	;ermittleWertZuSchluesselVonDatentabelle5070(
@@ -193,3 +193,91 @@ setzeVariable4002(
 )
 }"
 ermittleNr5131;;PkmFachfunktion;S;;5131
+ErmittleVerkaufsSortengruppeRelation;;;H;;"{:
+setzeVariable4002(
+	VerkaufsSortengruppe
+	; ermittleTarifprodukteZuIdentifikationsparameterwerten5079(
+		erzeugeListe3219(
+			ermittleIdentifikationsparameterwert5088(
+				Sortengruppe
+				; 1 /VerkaufssortengruppeRelation/
+			)
+		)
+	)
+)
+}"
+ermittleIdentifikationsparameterwert5088;;PkmFachfunktion;S;;5088
+ErmittleVerkaufsSortengruppeRelationAuswahl;;;H;;"{:
+setzeVariable4002(
+	VerkaufsSorteRelation
+	; listeElement3071(
+		leseVariable4001(VerkaufsSortengruppe)
+		; leseEingangsparameter4026(EP.VerkaufsSortengruppeRelationIndex)
+		)
+	)
+}"
+ermittleTarifprodukteZuIdentifikationsparameterwerten5079;;;S;;5079
+ErmittlePreis;;;H;;"{:
+	setzeVariable4002(
+		Verkaufspreis
+		; ermittlePreis5304(
+			leseVariable4001(VerkaufsSorteRelation)
+			; Euro-Cent
+			; undefiniert /gewünschter Gültigkeitsbeginn/
+			; undefiniert /konkreter Gültigkeitsbeginn/
+			; undefiniert /Verkaufszeitpunkt/
+			; <Alle Verkehrsmittel> / Verkehrsmittellinienbezug zu Verkehrsmittellinienbedingung der Bewertungsbedingung/
+			; leseVariable4001(StartTarifpunkt)
+			; leseVariable4001(ZielTarifpunkt)
+			; undefiniert /Tarifpunkt[] Merfachvia in HUSST nicht unterstützt/
+			; leseVariable4001(ViaWegevariante)
+			; undefiniert /Bezahlart/
+			; undefiniert /Zahlungsintervall/
+			; undefiniert /Rabattmedientyp/
+			; undefiniert /Mitnahmetyp[]/
+			; undefiniert /Zahl[] (Mitnahmeanzahl)/
+		)
+	)
+}"
+ermittlePreis5304;;PkmFachfunktion;S;;5304
+SetzePreisparameter;;;H;;"{:
+	erzeugeListe3219(
+		setzeVariable4002(
+			StartTarifpunkt
+			; ermittleTarifpunkt5035(
+				listeElement3071(
+					leseVariable4001(VerkaufsVia)
+					; 1 /StartarifpunktNr/
+				)
+			)
+		)
+		; setzeVariable4002(
+			ZielTarifpunkt
+			; ermittleTarifpunkt5035(
+				listeElement3071(
+					leseVariable4001(VerkaufsVia)
+					; 2 /ZieltarifpunktNr/
+				)
+			)
+		)
+		; setzeVariable4002(
+			VerkaufsVia
+			; ermittleWegevariante5333(
+				listeElement3071(
+					leseVariable4001(VerkaufsVia)
+					; 4 /WegevarianteNr (Via)/
+				)
+			)
+		)
+	)
+}"
+ermittleWegevariante5333;;;S;;5333
+ErmittleViaListeAuswahl;;;H;;"{:
+setzeVariable4002(
+	VerkaufsVia
+	; listeElement3071(
+		leseVariable4001(Vialiste)
+		; leseEingangsparameter4026(EP.RelationViaIndex)	
+	)
+)
+}"

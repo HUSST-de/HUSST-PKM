@@ -22,8 +22,6 @@ ErmittleZielpunktAuswahl;():Tarifpunkt;;H;;"{:setzeVariable4002(ZielTarifrelevan
 	ermittleTarifpunkt5035(listeElement3071(leseVariable4001(Zielpunktliste); leseEingangsparameter4026(EP.RelationZielTarifpunktIndex)))
 	)
 }"
-h2ps_;;Husst Testinitialisierung;H;;{:undefiniert}
-h2ps_berechneEingangsparameter;;Husst BerechnungsSchritt Funktionen;H;;{:undefiniert} / TODO Schnittstelle abstimmen /
 ErmittleRelcodes;;;H;;"{: erzeugeListe3219(
 	setzeVariable4002(
 		StartRelationscode
@@ -49,6 +47,8 @@ ErmittleRelcodes;;;H;;"{: erzeugeListe3219(
 	)
 )
 }"
+h2ps_;;Husst Testinitialisierung;H;;{:undefiniert}
+h2ps_berechneEingangsparameter;;Husst BerechnungsSchritt Funktionen;H;;{:undefiniert} / TODO Schnittstelle abstimmen /
 ErmittleViaListe;;;H;;"{:
 setzeVariable4002(
 	Vialiste
@@ -139,9 +139,21 @@ SetzePreisparameter;;;H;;"{:
 			; ermittleWegevariante5333(
 				listeElement3071(
 					leseVariable4001(VerkaufsVia)
-					; 4 /WegevarianteNr (Via)/
+					; 3 /WegevarianteNr (Via)/
 				)
 			)
+		)
+	)
+}"
+ErmittlePreisdetails;[Zahl, Zahl];;H;;"{:
+	erzeugeListe3219(
+		setzeVariable4002(
+			VerkaufPreisBetrag
+			; ermittleBetragVonPreis5246(leseVariable4001(VerkaufPreisdaten))
+		)
+		;  setzeVariable4002(
+			VerkaufPreisMwSt
+			; ermittleMwstsatzVonPreis5018(leseVariable4001(VerkaufPreisdaten))
 		)
 	)
 }"
@@ -282,18 +294,6 @@ ermittleTarifprodukteZuIdentifikationsparameterwerten5079;;;S;;5079
 ermittlePreis5304;;PkmFachfunktion;S;;5304
 ermittleWegevariante5333;;;S;;5333
 ermittleBetragVonPreis5246;;PkmFachfunktion;S;;5246
-ErmittlePreisdetails;[Zahl, Zahl];;H;;"{:
-	erzeugeListe3219(
-		setzeVariable4002(
-			VerkaufPreisBetrag
-			; ermittleBetragVonPreis5246(leseVariable4001(VerkaufPreisdaten))
-		)
-		;  setzeVariable4002(
-			VerkaufPreisMwSt
-			; ermittleMwstsatzVonPreis5018(leseVariable4001(VerkaufPreisdaten))
-		)
-	)
-}"
 ermittleMwstsatzVonPreis5018;;PkmFachfunktion;S;;5018
 Sequenz-AK-HUSST-Ticket-Druck;;Ausgangssequenz;H;;"{:
 	erzeugeListe3219(
@@ -309,7 +309,33 @@ Sequenz-AK-HUSST-Ticket-Druck;;Ausgangssequenz;H;;"{:
 		)
 		;wenn3016(
 			istGleich3014(AP-HUSST-Ticket-Preis;aktuellerAusgangsparameter4068())
-			; textVerkettet3068(alsText3091(leseVariable4001(VerkaufPreisBetrag));""€ Cent"")
+			; textVerkettet3068(
+					alsText3091(
+						zahlDividiert3041(
+							leseVariable4001(VerkaufPreisBetrag)
+							;100
+						)
+					)
+					; "".""
+					; alsText3091(
+						zahlDividiert3041(
+							zahlDivisionsrest3133(
+								leseVariable4001(VerkaufPreisBetrag)
+								;100)
+							;10
+						)
+					)
+					; alsText3091(
+						zahlDivisionsrest3133(
+							zahlDivisionsrest3133(
+								leseVariable4001(VerkaufPreisBetrag)
+								;100
+							)
+						;10
+						)
+					)
+					; ""€""
+			)
 			; undefiniert
 		)
 		;wenn3016(
@@ -337,3 +363,5 @@ Sequenz-AK-HUSST-Ticket-Druck;;Ausgangssequenz;H;;"{:
 }"
 aktuellerAusgangsparameter4068;;PkmFachfunktion;S;;4068
 textVerkettet3069;;;S;;3068
+zahlDividiert3041;;;S;;3041
+zahlDivisionsrest3133;;;S;;3133

@@ -277,9 +277,12 @@ erzeugeListe3219;;PkmFachfunktionen;S;;3219
 wandleTarifpunkteToAnzeigeDaten;(Tarifpunkt[]):TarifpunktAnzeigeDaten[];;H;;"{listTarifpunkte: listeUmgewandelt($listTarifpunkte; iteratorTarifpunktToAnzeigeDaten)}"
 listeUmgewandelt;;PkmFachfunktionen;S;;3082
 iteratorTarifpunktToAnzeigeDaten;(Wert,Zahl,Wert[]):Wert;;H;;"{value;index;array:
-	erzeugeListe3219($index;
-					 ermittleText(ermittleTarifpunkt5035($value);
-								  AP-HUSST-Tarifpunkt-Start-Bezeichnung))}"
+	erzeugeListe3219(
+		erzeugeListe3219(""Anzeigetext"");
+		erzeugeListe3219(ermittleText(ermittleTarifpunkt5035($value);
+								 AP-HUSST-Tarifpunkt-Start-Bezeichnung))
+	)
+}"
 ermittleText;;;S;;5302
 wandleStartTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeVariable4002(AD.StartTarifpunkteAnzeige; wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Startpunktliste)))}"
 wandleZielTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeVariable4002(AD.ZielTarifpunkteAnzeige; wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Zielpunktliste)))}"
@@ -365,3 +368,61 @@ aktuellerAusgangsparameter4068;;PkmFachfunktion;S;;4068
 textVerkettet3069;;;S;;3068
 zahlDividiert3041;;;S;;3041
 zahlDivisionsrest3133;;;S;;3133
+Sequenz-AK-HUSST-StartTarifpunktAnzeige;;Ausgangssequenz;H;;"{:H2P_H_ListeToText(setzeAusgangsparameter(AP-Husst-Anzeige-Starttarifpunkte;wandleStartTarifpunkteToAnzeigeDaten()))}"
+Sequenz-AK-HUSST-ZielTarifpunktAnzeige;;Ausgangssequenz;H;;"{:H2P_H_ListeToText(setzeAusgangsparameter(AP-Husst-Anzeige-Zieltarifpunkte;wandleZielTarifpunkteToAnzeigeDaten()))}"
+Sequenz-AK-HUSST-ViaAuswahlAnzeige;;Ausgangssequenz;H;;"{:H2P_H_ListeToText(setzeAusgangsparameter(AP-Husst-Anzeige-Vias;wandleViasToAnzeigeDaten()))}"
+wandleViasToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:
+setzeVariable4002(AD.ViaAuwahlAnzeige;
+	listeUmgewandelt(
+		leseVariable4001(Vialiste);
+		iteratorViaToAnzeigeDaten
+	)
+)
+}"
+Sequenz-AK-HUSST-SortengruppenAnzeige;;Ausgangssequenz;H;;"{:H2P_H_ListeToText(setzeAusgangsparameter(AP-Husst-Anzeige-Sortengrupppen;wandleSortengruppenToAnzeigeDaten()))}"
+wandleSortengruppenToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:
+setzeVariable4002(AD.SortengruppenAnzeige;
+	listeUmgewandelt(
+		leseVariable4001(VerkaufsSortengruppe);
+		iteratorSortengruppeToAnzeigeDaten
+	)
+)
+}"
+H2P_H_ListeToText;(Werte[]):Text;;H;;"{Liste:
+wenn3016(istListe($Liste);   
+	alsText3091(
+		listeUmgewandelt($Liste; H2P_H_ListeToTextIterator
+	)
+);
+	alsText3091($Liste)
+)
+}"
+H2P_H_ListeToTextIterator;(Werte[]):Text;;H;;"{value;index;array:
+wenn3016(istGleich3014(listeLaenge3072($array);$index)
+	;textVerkettet3068(
+		""[""
+		; $value
+		; ""]""
+	)  
+	;textVerkettet3068(
+		""[""
+		; $value
+		; ""]""
+		; "",""
+	)
+)
+}"
+setzeAusgangsparameter;;;S;;4041
+istListe;;;S;;3324
+iteratorViaToAnzeigeDaten;(Wert,Zahl,Wert[]):Wert;;H;;"{value;index;array:
+	erzeugeListe3219(
+		erzeugeListe3219(""Anzeigetext"");
+		erzeugeListe3219(listeElement3071($value;5))
+	)
+}"
+iteratorSortengruppeToAnzeigeDaten;(Wert,Zahl,Wert[]):Wert;;H;;"{value;index;array:
+	erzeugeListe3219(
+		erzeugeListe3219(""Anzeigetext"");
+		erzeugeListe3219($value)
+	)
+}"

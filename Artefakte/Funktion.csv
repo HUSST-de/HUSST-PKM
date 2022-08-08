@@ -423,6 +423,6 @@ iteratorViaToAnzeigeDaten;(Wert,Zahl,Wert[]):Wert;;H;;"{value;index;array:
 iteratorSortengruppeToAnzeigeDaten;(Wert,Zahl,Wert[]):Wert;;H;;"{value;index;array:
 	erzeugeListe3219(
 		erzeugeListe3219(""Anzeigetext"");
-		erzeugeListe3219($value)
+		erzeugeListe3219(ermittleText($value;AP-HUSST-Sorte-Bezeichnung))
 	)
 }"

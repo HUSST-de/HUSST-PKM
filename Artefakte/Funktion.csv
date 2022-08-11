@@ -284,8 +284,8 @@ iteratorTarifpunktToAnzeigeDaten;(Wert,Zahl,Wert[]):Wert;;H;;"{value;index;array
 	)
 }"
 ermittleText;;;S;;5302
-wandleStartTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeVariable4002(AD.StartTarifpunkteAnzeige; wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Startpunktliste)))}"
-wandleZielTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeVariable4002(AD.ZielTarifpunkteAnzeige; wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Zielpunktliste)))}"
+wandleStartTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeAusgangsparameter(AP-Husst-Anzeige-Starttarifpunkte; wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Startpunktliste)))}"
+wandleZielTarifpunkteToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:setzeAusgangsparameter(AP-Husst-Anzeige-Zieltarifpunkte;wandleTarifpunkteToAnzeigeDaten(leseVariable4001(Zielpunktliste)))}"
 ermittleEinzelauswahl;;;S;;3034
 leseAusgangsparameter;;;S;;4038
 und3026;;PkmFachfunktion;S;;3026
@@ -372,7 +372,7 @@ Sequenz-AK-HUSST-StartTarifpunktAnzeige;;Ausgangssequenz;H;;"{:H2P_H_ListeToText
 Sequenz-AK-HUSST-ZielTarifpunktAnzeige;;Ausgangssequenz;H;;"{:H2P_H_ListeToText(setzeAusgangsparameter(AP-Husst-Anzeige-Zieltarifpunkte;wandleZielTarifpunkteToAnzeigeDaten()))}"
 Sequenz-AK-HUSST-ViaAuswahlAnzeige;;Ausgangssequenz;H;;"{:H2P_H_ListeToText(setzeAusgangsparameter(AP-Husst-Anzeige-Vias;wandleViasToAnzeigeDaten()))}"
 wandleViasToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:
-setzeVariable4002(AD.ViaAuwahlAnzeige;
+setzeAusgangsparameter(AP-Husst-Anzeige-Vias;
 	listeUmgewandelt(
 		leseVariable4001(Vialiste);
 		iteratorViaToAnzeigeDaten
@@ -381,7 +381,7 @@ setzeVariable4002(AD.ViaAuwahlAnzeige;
 }"
 Sequenz-AK-HUSST-SortengruppenAnzeige;;Ausgangssequenz;H;;"{:H2P_H_ListeToText(setzeAusgangsparameter(AP-Husst-Anzeige-Sortengrupppen;wandleSortengruppenToAnzeigeDaten()))}"
 wandleSortengruppenToAnzeigeDaten;():TarifpunktAnzeigeDaten[];;H;;"{:
-setzeVariable4002(AD.SortengruppenAnzeige;
+ setzeAusgangsparameter(AP-Husst-Anzeige-Sortengrupppen;
 	listeUmgewandelt(
 		leseVariable4001(VerkaufsSortengruppe);
 		iteratorSortengruppeToAnzeigeDaten
@@ -389,13 +389,7 @@ setzeVariable4002(AD.SortengruppenAnzeige;
 )
 }"
 H2P_H_ListeToText;(Werte[]):Text;;H;;"{Liste:
-wenn3016(istListe($Liste);   
-	alsText3091(
-		listeUmgewandelt($Liste; H2P_H_ListeToTextIterator
-	)
-);
-	alsText3091($Liste)
-)
+ alsText3091("""")
 }"
 H2P_H_ListeToTextIterator;(Werte[]):Text;;H;;"{value;index;array:
 wenn3016(istGleich3014(listeLaenge3072($array);$index)

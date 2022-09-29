@@ -95,7 +95,7 @@
 		<item>
 			<tarifmodul>
 				<version>
-					<gueltigkeitsbeginn>2022-02-01T00:00:00</gueltigkeitsbeginn>
+					<gueltigkeitsbeginn>2022-02-01T00:00:00+02:00</gueltigkeitsbeginn>
 					<externNr>0</externNr>
 					<internNr>0</internNr>
 					<modulstatus>1</modulstatus>

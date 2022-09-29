@@ -7,7 +7,7 @@
 		<modulstatus>1</modulstatus>
 		<modulspezifikation>1.6.0</modulspezifikation>
 		<modulnamenszusatz>HUSST</modulnamenszusatz>
-		<speicherzeitpunkt>2022-09-28T16:22:18+02:00</speicherzeitpunkt>
+		<speicherzeitpunkt>2022-09-29T09:24:15+02:00</speicherzeitpunkt>
 		<bearbeiter/>
 		<freigeber/>
 		<bemerkung/>
@@ -95,13 +95,13 @@
 		<item>
 			<tarifmodul>
 				<version>
-					<gueltigkeitsbeginn>2022-02-01T00:00:00+02:00</gueltigkeitsbeginn>
+					<gueltigkeitsbeginn>2022-02-01T00:00:00</gueltigkeitsbeginn>
 					<externNr>0</externNr>
 					<internNr>0</internNr>
 					<modulstatus>1</modulstatus>
 					<modulspezifikation>1.6.0</modulspezifikation>
 					<modulnamenszusatz/>
-					<speicherzeitpunkt>2022-09-28T16:22:18+02:00</speicherzeitpunkt>
+					<speicherzeitpunkt>2022-09-29T09:24:15+02:00</speicherzeitpunkt>
 					<bearbeiter>HUSST2PKM</bearbeiter>
 					<freigeber>HUSST2PKM</freigeber>
 					<bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
@@ -1108,7 +1108,7 @@
 						<name>s0</name>
 						<berechnung>
 							<funktion>
-								<ref>143</ref>
+								<ref>144</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1120,7 +1120,7 @@
 						<name>s1</name>
 						<berechnung>
 							<funktion>
-								<ref>145</ref>
+								<ref>146</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1132,7 +1132,7 @@
 						<name>s2</name>
 						<berechnung>
 							<funktion>
-								<ref>146</ref>
+								<ref>147</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1144,7 +1144,7 @@
 						<name>s3</name>
 						<berechnung>
 							<funktion>
-								<ref>144</ref>
+								<ref>145</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1156,7 +1156,7 @@
 						<name>s4</name>
 						<berechnung>
 							<funktion>
-								<ref>147</ref>
+								<ref>148</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1168,7 +1168,7 @@
 						<name>s5</name>
 						<berechnung>
 							<funktion>
-								<ref>148</ref>
+								<ref>149</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1180,7 +1180,7 @@
 						<name>s5.1 AusgabeStartTarifpunkteAuswahl</name>
 						<berechnung>
 							<funktion>
-								<ref>177</ref>
+								<ref>178</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1192,7 +1192,7 @@
 						<name>s5.2 AuswahlStartTarifpunkt</name>
 						<berechnung>
 							<funktion>
-								<ref>111</ref>
+								<ref>112</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1204,7 +1204,7 @@
 						<name>s6</name>
 						<berechnung>
 							<funktion>
-								<ref>149</ref>
+								<ref>150</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1216,7 +1216,7 @@
 						<name>s6.1 AusgabeZielTarifpunkteAuswahl</name>
 						<berechnung>
 							<funktion>
-								<ref>180</ref>
+								<ref>181</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1228,7 +1228,7 @@
 						<name>s6.2 AuswahlZielTarifpunkte</name>
 						<berechnung>
 							<funktion>
-								<ref>124</ref>
+								<ref>125</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1240,7 +1240,7 @@
 						<name>s7 TarifrelevantePunkteZuRelcode</name>
 						<berechnung>
 							<funktion>
-								<ref>110</ref>
+								<ref>111</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1252,7 +1252,7 @@
 						<name>s7.0 Relcodes zu Preisparameter (Tarifpunkte/Via)</name>
 						<berechnung>
 							<funktion>
-								<ref>119</ref>
+								<ref>120</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1264,7 +1264,7 @@
 						<name>s7.1 AusgabeViaAuswahl</name>
 						<berechnung>
 							<funktion>
-								<ref>179</ref>
+								<ref>180</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1276,7 +1276,7 @@
 						<name>s7.2 AuswahlViaAuswahl</name>
 						<berechnung>
 							<funktion>
-								<ref>120</ref>
+								<ref>121</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1288,7 +1288,7 @@
 						<name>s7.3 SetzteVerkaufsViaDaten</name>
 						<berechnung>
 							<funktion>
-								<ref>170</ref>
+								<ref>171</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1300,7 +1300,7 @@
 						<name>s10 LadeRelationsverkaufSortenruppe</name>
 						<berechnung>
 							<funktion>
-								<ref>117</ref>
+								<ref>118</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1312,7 +1312,7 @@
 						<name>s10.1 AusgabeSortengruppenAuswahl</name>
 						<berechnung>
 							<funktion>
-								<ref>176</ref>
+								<ref>177</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1324,7 +1324,7 @@
 						<name>s10.2 AuswahlSortgengruppeAuswahl</name>
 						<berechnung>
 							<funktion>
-								<ref>118</ref>
+								<ref>119</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1336,7 +1336,7 @@
 						<name>s11 ErmittelePreisdaten</name>
 						<berechnung>
 							<funktion>
-								<ref>108</ref>
+								<ref>109</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1348,7 +1348,7 @@
 						<name>s11.1 ErmittlePreisdetail</name>
 						<berechnung>
 							<funktion>
-								<ref>109</ref>
+								<ref>110</ref>
 							</funktion>
 							<ausnahme/>
 							<nachfolger>
@@ -1358,13 +1358,13 @@
 					</item>
 					<item>
 						<name>s12 AusgabeTicket</name>
-						<ausgang>
-							<ausgangsdaten>
-								<ref>189</ref>
-							</ausgangsdaten>
+						<berechnung>
+							<funktion>
+								<ref>100</ref>
+							</funktion>
 							<ausnahme/>
 							<nachfolger/>
-						</ausgang>
+						</berechnung>
 					</item>
 				</schritt-pool>
 				<variable-pool key="75">
@@ -1449,6 +1449,106 @@
 						<nr>3091</nr>
 					</item>
 					<item>
+						<name>AusgabeTicket</name>
+						<aufruf ref="128">
+							<aufruf ref="170">
+								<ref>24</ref>
+								<aufruf ref="117">
+									<aufruf ref="158">
+										<ref>89</ref>
+									</aufruf>
+									<ref>24</ref>
+								</aufruf>
+							</aufruf>
+							<aufruf ref="170">
+								<ref>27</ref>
+								<aufruf ref="99">
+									<aufruf ref="161">
+										<aufruf ref="158">
+											<ref>90</ref>
+										</aufruf>
+										<zahl>4</zahl>
+									</aufruf>
+								</aufruf>
+							</aufruf>
+							<aufruf ref="170">
+								<ref>25</ref>
+								<aufruf ref="173">
+									<aufruf ref="99">
+										<aufruf ref="183">
+											<aufruf ref="158">
+												<ref>85</ref>
+											</aufruf>
+											<zahl>100</zahl>
+										</aufruf>
+									</aufruf>
+									<text>.</text>
+									<aufruf ref="99">
+										<aufruf ref="183">
+											<aufruf ref="184">
+												<aufruf ref="158">
+													<ref>85</ref>
+												</aufruf>
+												<zahl>100</zahl>
+											</aufruf>
+											<zahl>10</zahl>
+										</aufruf>
+									</aufruf>
+									<aufruf ref="99">
+										<aufruf ref="184">
+											<aufruf ref="184">
+												<aufruf ref="158">
+													<ref>85</ref>
+												</aufruf>
+												<zahl>100</zahl>
+											</aufruf>
+											<zahl>10</zahl>
+										</aufruf>
+									</aufruf>
+									<text>€</text>
+								</aufruf>
+							</aufruf>
+							<aufruf ref="170">
+								<ref>26</ref>
+								<aufruf ref="173">
+									<aufruf ref="99">
+										<aufruf ref="158">
+											<ref>87</ref>
+										</aufruf>
+									</aufruf>
+									<text>%</text>
+								</aufruf>
+							</aufruf>
+							<aufruf ref="170">
+								<ref>30</ref>
+								<aufruf ref="117">
+									<aufruf ref="158">
+										<ref>83</ref>
+									</aufruf>
+									<ref>30</ref>
+								</aufruf>
+							</aufruf>
+							<aufruf ref="170">
+								<ref>31</ref>
+								<aufruf ref="117">
+									<aufruf ref="158">
+										<ref>95</ref>
+									</aufruf>
+									<ref>31</ref>
+								</aufruf>
+							</aufruf>
+							<aufruf ref="170">
+								<ref>32</ref>
+								<aufruf ref="117">
+									<aufruf ref="158">
+										<ref>92</ref>
+									</aufruf>
+									<ref>32</ref>
+								</aufruf>
+							</aufruf>
+						</aufruf>
+					</item>
+					<item>
 						<name>berechneWertMit3216</name>
 						<nr>3216</nr>
 					</item>
@@ -1482,25 +1582,25 @@
 					</item>
 					<item>
 						<name>ErmittlePreisdaten</name>
-						<aufruf ref="171">
+						<aufruf ref="172">
 							<ref>86</ref>
-							<aufruf ref="107">
-								<aufruf ref="157">
+							<aufruf ref="108">
+								<aufruf ref="158">
 									<ref>89</ref>
 								</aufruf>
-								<ref>293</ref>
+								<ref>294</ref>
 								<undefiniert/>
 								<undefiniert/>
 								<undefiniert/>
-								<ref>291</ref>
-								<aufruf ref="157">
+								<ref>292</ref>
+								<aufruf ref="158">
 									<ref>83</ref>
 								</aufruf>
-								<aufruf ref="157">
+								<aufruf ref="158">
 									<ref>95</ref>
 								</aufruf>
 								<undefiniert/>
-								<aufruf ref="157">
+								<aufruf ref="158">
 									<ref>92</ref>
 								</aufruf>
 								<undefiniert/>
@@ -1513,19 +1613,19 @@
 					</item>
 					<item>
 						<name>ErmittlePreisdetails</name>
-						<aufruf ref="127">
-							<aufruf ref="171">
+						<aufruf ref="128">
+							<aufruf ref="172">
 								<ref>85</ref>
-								<aufruf ref="101">
-									<aufruf ref="157">
+								<aufruf ref="102">
+									<aufruf ref="158">
 										<ref>86</ref>
 									</aufruf>
 								</aufruf>
 							</aufruf>
-							<aufruf ref="171">
+							<aufruf ref="172">
 								<ref>87</ref>
-								<aufruf ref="105">
-									<aufruf ref="157">
+								<aufruf ref="106">
+									<aufruf ref="158">
 										<ref>86</ref>
 									</aufruf>
 								</aufruf>
@@ -1534,29 +1634,29 @@
 					</item>
 					<item>
 						<name>ErmittleRelcodes</name>
-						<aufruf ref="127">
-							<aufruf ref="171">
+						<aufruf ref="128">
+							<aufruf ref="172">
 								<ref>82</ref>
-								<aufruf ref="160">
-									<aufruf ref="126">
-										<aufruf ref="157">
+								<aufruf ref="161">
+									<aufruf ref="127">
+										<aufruf ref="158">
 											<ref>84</ref>
 										</aufruf>
-										<ref>279</ref>
-										<ref>291</ref>
+										<ref>280</ref>
+										<ref>292</ref>
 									</aufruf>
 									<zahl>1</zahl>
 								</aufruf>
 							</aufruf>
-							<aufruf ref="171">
+							<aufruf ref="172">
 								<ref>94</ref>
-								<aufruf ref="160">
-									<aufruf ref="126">
-										<aufruf ref="157">
+								<aufruf ref="161">
+									<aufruf ref="127">
+										<aufruf ref="158">
 											<ref>96</ref>
 										</aufruf>
-										<ref>279</ref>
-										<ref>291</ref>
+										<ref>280</ref>
+										<ref>292</ref>
 									</aufruf>
 									<zahl>1</zahl>
 								</aufruf>
@@ -1565,17 +1665,17 @@
 					</item>
 					<item>
 						<name>ErmittleStartpunktAuswahl</name>
-						<aufruf ref="169">
+						<aufruf ref="170">
 							<ref>14</ref>
-							<aufruf ref="116">
-								<aufruf ref="171">
+							<aufruf ref="117">
+								<aufruf ref="172">
 									<ref>84</ref>
-									<aufruf ref="113">
-										<aufruf ref="160">
-											<aufruf ref="157">
+									<aufruf ref="114">
+										<aufruf ref="161">
+											<aufruf ref="158">
 												<ref>81</ref>
 											</aufruf>
-											<aufruf ref="156">
+											<aufruf ref="157">
 												<ref>5</ref>
 											</aufruf>
 										</aufruf>
@@ -1607,12 +1707,12 @@
 					</item>
 					<item>
 						<name>ErmittleVerkaufsSortengruppeRelation</name>
-						<aufruf ref="171">
+						<aufruf ref="172">
 							<ref>88</ref>
-							<aufruf ref="112">
-								<aufruf ref="127">
-									<aufruf ref="104">
-										<ref>204</ref>
+							<aufruf ref="113">
+								<aufruf ref="128">
+									<aufruf ref="105">
+										<ref>205</ref>
 										<zahl>1</zahl>
 									</aufruf>
 								</aufruf>
@@ -1621,16 +1721,16 @@
 					</item>
 					<item>
 						<name>ErmittleVerkaufsSortengruppeRelationAuswahl</name>
-						<aufruf ref="169">
+						<aufruf ref="170">
 							<ref>10</ref>
-							<aufruf ref="116">
-								<aufruf ref="171">
+							<aufruf ref="117">
+								<aufruf ref="172">
 									<ref>89</ref>
-									<aufruf ref="160">
-										<aufruf ref="157">
+									<aufruf ref="161">
+										<aufruf ref="158">
 											<ref>88</ref>
 										</aufruf>
-										<aufruf ref="156">
+										<aufruf ref="157">
 											<ref>8</ref>
 										</aufruf>
 									</aufruf>
@@ -1641,20 +1741,20 @@
 					</item>
 					<item>
 						<name>ErmittleViaListe</name>
-						<aufruf ref="171">
+						<aufruf ref="172">
 							<ref>91</ref>
-							<aufruf ref="123">
-								<aufruf ref="102">
+							<aufruf ref="124">
+								<aufruf ref="103">
 									<zahl>6</zahl>
 								</aufruf>
-								<aufruf ref="127">
-									<aufruf ref="106">
-										<aufruf ref="157">
+								<aufruf ref="128">
+									<aufruf ref="107">
+										<aufruf ref="158">
 											<ref>82</ref>
 										</aufruf>
 									</aufruf>
-									<aufruf ref="106">
-										<aufruf ref="157">
+									<aufruf ref="107">
+										<aufruf ref="158">
 											<ref>94</ref>
 										</aufruf>
 									</aufruf>
@@ -1664,16 +1764,16 @@
 					</item>
 					<item>
 						<name>ErmittleViaListeAuswahl</name>
-						<aufruf ref="169">
+						<aufruf ref="170">
 							<ref>22</ref>
-							<aufruf ref="160">
-								<aufruf ref="171">
+							<aufruf ref="161">
+								<aufruf ref="172">
 									<ref>90</ref>
-									<aufruf ref="160">
-										<aufruf ref="157">
+									<aufruf ref="161">
+										<aufruf ref="158">
 											<ref>91</ref>
 										</aufruf>
-										<aufruf ref="156">
+										<aufruf ref="157">
 											<ref>7</ref>
 										</aufruf>
 									</aufruf>
@@ -1696,17 +1796,17 @@
 					</item>
 					<item>
 						<name>ErmittleZielpunktAuswahl</name>
-						<aufruf ref="169">
+						<aufruf ref="170">
 							<ref>19</ref>
-							<aufruf ref="116">
-								<aufruf ref="171">
+							<aufruf ref="117">
+								<aufruf ref="172">
 									<ref>96</ref>
-									<aufruf ref="113">
-										<aufruf ref="160">
-											<aufruf ref="157">
+									<aufruf ref="114">
+										<aufruf ref="161">
+											<aufruf ref="158">
 												<ref>93</ref>
 											</aufruf>
-											<aufruf ref="156">
+											<aufruf ref="157">
 												<ref>6</ref>
 											</aufruf>
 										</aufruf>
@@ -1736,19 +1836,19 @@
 					</item>
 					<item>
 						<name>H2P_H_ListeToTextIterator</name>
-						<aufruf ref="181">
-							<aufruf ref="150">
-								<aufruf ref="162">
+						<aufruf ref="182">
+							<aufruf ref="151">
+								<aufruf ref="163">
 									<param>3</param>
 								</aufruf>
 								<param>2</param>
 							</aufruf>
-							<aufruf ref="172">
+							<aufruf ref="173">
 								<text>[</text>
 								<param>1</param>
 								<text>]</text>
 							</aufruf>
-							<aufruf ref="172">
+							<aufruf ref="173">
 								<text>[</text>
 								<param>1</param>
 								<text>]</text>
@@ -1758,9 +1858,9 @@
 					</item>
 					<item>
 						<name>H2Pf_2_ermittleBediengebietVonOrtspunkt</name>
-						<aufruf ref="171">
+						<aufruf ref="172">
 							<ref>79</ref>
-							<aufruf ref="160">
+							<aufruf ref="161">
 								<param>1</param>
 								<zahl>2</zahl>
 							</aufruf>
@@ -1768,8 +1868,8 @@
 					</item>
 					<item>
 						<name>H2Pf_2_ermittleOrtspunktMitIbisNr</name>
-						<aufruf ref="123">
-							<aufruf ref="102">
+						<aufruf ref="124">
+							<aufruf ref="103">
 								<zahl>3</zahl>
 							</aufruf>
 							<param>1</param>
@@ -1777,8 +1877,8 @@
 					</item>
 					<item>
 						<name>H2Pf_2_ermittleOrtspunktMitRefExt</name>
-						<aufruf ref="123">
-							<aufruf ref="102">
+						<aufruf ref="124">
+							<aufruf ref="103">
 								<zahl>2</zahl>
 							</aufruf>
 							<aufruf ref="99">
@@ -1788,26 +1888,26 @@
 					</item>
 					<item>
 						<name>H2Pf_3_ermittleStartpunktZuOrtspunkt</name>
-						<aufruf ref="125">
-							<aufruf ref="113">
-								<aufruf ref="160">
+						<aufruf ref="126">
+							<aufruf ref="114">
+								<aufruf ref="161">
 									<param>1</param>
 									<zahl>1</zahl>
 								</aufruf>
 							</aufruf>
-							<ref>277</ref>
-							<ref>291</ref>
+							<ref>278</ref>
+							<ref>292</ref>
 						</aufruf>
 					</item>
 					<item>
 						<name>H2Pf_4_ermittleStartpunkte</name>
-						<aufruf ref="171">
+						<aufruf ref="172">
 							<ref>81</ref>
-							<aufruf ref="123">
-								<aufruf ref="102">
+							<aufruf ref="124">
+								<aufruf ref="103">
 									<zahl>5</zahl>
 								</aufruf>
-								<aufruf ref="127">
+								<aufruf ref="128">
 									<param>1</param>
 									<param>2</param>
 								</aufruf>
@@ -1816,13 +1916,13 @@
 					</item>
 					<item>
 						<name>H2Pf_5_ermittleZielpunkte</name>
-						<aufruf ref="171">
+						<aufruf ref="172">
 							<ref>93</ref>
-							<aufruf ref="123">
-								<aufruf ref="102">
+							<aufruf ref="124">
+								<aufruf ref="103">
 									<zahl>5</zahl>
 								</aufruf>
-								<aufruf ref="127">
+								<aufruf ref="128">
 									<param>1</param>
 									<param>2</param>
 								</aufruf>
@@ -1831,11 +1931,11 @@
 					</item>
 					<item>
 						<name>H2Pf_800_ermittleZuordnungstyp</name>
-						<aufruf ref="123">
-							<aufruf ref="102">
+						<aufruf ref="124">
+							<aufruf ref="103">
 								<text>%HusstZuordnungstypen%</text>
 							</aufruf>
-							<aufruf ref="141">
+							<aufruf ref="142">
 								<param>1</param>
 								<aufruf ref="98">
 									<param>2</param>
@@ -1848,11 +1948,11 @@
 					</item>
 					<item>
 						<name>H2Pf_801_ermittleTarifpunktreferenzNummer</name>
-						<aufruf ref="123">
-							<aufruf ref="102">
+						<aufruf ref="124">
+							<aufruf ref="103">
 								<text>%HusstTarifpunktreferenzNummern%</text>
 							</aufruf>
-							<aufruf ref="141">
+							<aufruf ref="142">
 								<param>1</param>
 								<aufruf ref="98">
 									<param>2</param>
@@ -1865,8 +1965,8 @@
 					</item>
 					<item>
 						<name>H2Pf_802_ermittlePunktAuswahl</name>
-						<aufruf ref="123">
-							<aufruf ref="102">
+						<aufruf ref="124">
+							<aufruf ref="103">
 								<text>%HusstPunktAuswahl%</text>
 							</aufruf>
 							<param>1</param>
@@ -1874,29 +1974,29 @@
 					</item>
 					<item>
 						<name>H2Pf_803_ermittlePunktAuswahlliste</name>
-						<aufruf ref="181">
-							<aufruf ref="150">
+						<aufruf ref="182">
+							<aufruf ref="151">
 								<zahl>0</zahl>
-								<aufruf ref="162">
+								<aufruf ref="163">
 									<param>2</param>
 								</aufruf>
 							</aufruf>
 							<param>1</param>
-							<aufruf ref="139">
-								<aufruf ref="161">
+							<aufruf ref="140">
+								<aufruf ref="162">
 									<param>1</param>
-									<aufruf ref="138">
-										<aufruf ref="160">
+									<aufruf ref="139">
+										<aufruf ref="161">
 											<param>2</param>
 											<zahl>1</zahl>
 										</aufruf>
 									</aufruf>
 								</aufruf>
-								<aufruf ref="159">
+								<aufruf ref="160">
 									<param>2</param>
 									<zahl>2</zahl>
-									<aufruf ref="184">
-										<aufruf ref="162">
+									<aufruf ref="185">
+										<aufruf ref="163">
 											<param>2</param>
 										</aufruf>
 										<zahl>1</zahl>
@@ -1919,12 +2019,12 @@
 					</item>
 					<item>
 						<name>H2Pf_806_ermittleTarifpunktZuExterneReferenz</name>
-						<aufruf ref="113">
-							<aufruf ref="123">
-								<aufruf ref="102">
+						<aufruf ref="114">
+							<aufruf ref="124">
+								<aufruf ref="103">
 									<text>%HusstTarifpunktreferenzNummern%</text>
 								</aufruf>
-								<aufruf ref="141">
+								<aufruf ref="142">
 									<aufruf ref="99">
 										<param>1</param>
 									</aufruf>
@@ -1946,8 +2046,8 @@
 					</item>
 					<item>
 						<name>h2ps_berechneBediengebiet</name>
-						<aufruf ref="130">
-							<aufruf ref="157">
+						<aufruf ref="131">
+							<aufruf ref="158">
 								<ref>80</ref>
 							</aufruf>
 						</aufruf>
@@ -1960,37 +2060,37 @@
 					</item>
 					<item>
 						<name>h2ps_berechneStandort</name>
-						<aufruf ref="171">
+						<aufruf ref="172">
 							<ref>80</ref>
-							<aufruf ref="181">
-								<aufruf ref="150">
+							<aufruf ref="182">
+								<aufruf ref="151">
 									<aufruf ref="99">
-										<aufruf ref="156">
+										<aufruf ref="157">
 											<ref>3</ref>
 										</aufruf>
 									</aufruf>
 									<text>ReferenzExtern</text>
 								</aufruf>
-								<aufruf ref="132">
-									<aufruf ref="156">
+								<aufruf ref="133">
+									<aufruf ref="157">
 										<ref>4</ref>
 									</aufruf>
 								</aufruf>
-								<aufruf ref="181">
-									<aufruf ref="150">
+								<aufruf ref="182">
+									<aufruf ref="151">
 										<aufruf ref="99">
-											<aufruf ref="156">
+											<aufruf ref="157">
 												<ref>3</ref>
 											</aufruf>
 										</aufruf>
 										<text>IBISnr</text>
 									</aufruf>
-									<aufruf ref="132">
-										<aufruf ref="156">
+									<aufruf ref="133">
+										<aufruf ref="157">
 											<ref>4</ref>
 										</aufruf>
 									</aufruf>
-									<aufruf ref="158">
+									<aufruf ref="159">
 										<undefiniert/>
 									</aufruf>
 								</aufruf>
@@ -1999,10 +2099,10 @@
 					</item>
 					<item>
 						<name>h2ps_berechneStartpunkt</name>
-						<aufruf ref="171">
+						<aufruf ref="172">
 							<ref>84</ref>
-							<aufruf ref="133">
-								<aufruf ref="157">
+							<aufruf ref="134">
+								<aufruf ref="158">
 									<ref>80</ref>
 								</aufruf>
 							</aufruf>
@@ -2010,18 +2110,18 @@
 					</item>
 					<item>
 						<name>h2ps_berechneStartpunktliste</name>
-						<aufruf ref="134">
+						<aufruf ref="135">
 							<zahl>1</zahl>
-							<aufruf ref="157">
+							<aufruf ref="158">
 								<ref>79</ref>
 							</aufruf>
 						</aufruf>
 					</item>
 					<item>
 						<name>h2ps_berechneZielpunktliste</name>
-						<aufruf ref="135">
+						<aufruf ref="136">
 							<zahl>2</zahl>
-							<aufruf ref="157">
+							<aufruf ref="158">
 								<ref>79</ref>
 							</aufruf>
 						</aufruf>
@@ -2036,12 +2136,12 @@
 					</item>
 					<item>
 						<name>iteratorSortengruppeToAnzeigeDaten</name>
-						<aufruf ref="127">
-							<aufruf ref="127">
+						<aufruf ref="128">
+							<aufruf ref="128">
 								<text>Anzeigetext</text>
 							</aufruf>
-							<aufruf ref="127">
-								<aufruf ref="116">
+							<aufruf ref="128">
+								<aufruf ref="117">
 									<param>1</param>
 									<ref>10</ref>
 								</aufruf>
@@ -2050,13 +2150,13 @@
 					</item>
 					<item>
 						<name>iteratorTarifpunktToAnzeigeDaten</name>
-						<aufruf ref="127">
-							<aufruf ref="127">
+						<aufruf ref="128">
+							<aufruf ref="128">
 								<text>Anzeigetext</text>
 							</aufruf>
-							<aufruf ref="127">
-								<aufruf ref="116">
-									<aufruf ref="113">
+							<aufruf ref="128">
+								<aufruf ref="117">
+									<aufruf ref="114">
 										<param>1</param>
 									</aufruf>
 									<ref>12</ref>
@@ -2066,12 +2166,12 @@
 					</item>
 					<item>
 						<name>iteratorViaToAnzeigeDaten</name>
-						<aufruf ref="127">
-							<aufruf ref="127">
+						<aufruf ref="128">
+							<aufruf ref="128">
 								<text>Anzeigetext</text>
 							</aufruf>
-							<aufruf ref="127">
-								<aufruf ref="160">
+							<aufruf ref="128">
+								<aufruf ref="161">
 									<param>1</param>
 									<zahl>5</zahl>
 								</aufruf>
@@ -2116,46 +2216,46 @@
 					</item>
 					<item>
 						<name>Sequenz-AK-HUSST-SortengruppenAnzeige</name>
-						<aufruf ref="128">
-							<aufruf ref="169">
+						<aufruf ref="129">
+							<aufruf ref="170">
 								<ref>36</ref>
-								<aufruf ref="176"/>
-							</aufruf>
-						</aufruf>
-					</item>
-					<item>
-						<name>Sequenz-AK-HUSST-StartTarifpunktAnzeige</name>
-						<aufruf ref="128">
-							<aufruf ref="169">
-								<ref>33</ref>
 								<aufruf ref="177"/>
 							</aufruf>
 						</aufruf>
 					</item>
 					<item>
+						<name>Sequenz-AK-HUSST-StartTarifpunktAnzeige</name>
+						<aufruf ref="129">
+							<aufruf ref="170">
+								<ref>33</ref>
+								<aufruf ref="178"/>
+							</aufruf>
+						</aufruf>
+					</item>
+					<item>
 						<name>Sequenz-AK-HUSST-Ticket-Druck</name>
-						<aufruf ref="127">
-							<aufruf ref="181">
-								<aufruf ref="150">
+						<aufruf ref="128">
+							<aufruf ref="182">
+								<aufruf ref="151">
 									<ref>24</ref>
 									<aufruf ref="97"/>
 								</aufruf>
-								<aufruf ref="116">
-									<aufruf ref="157">
+								<aufruf ref="117">
+									<aufruf ref="158">
 										<ref>89</ref>
 									</aufruf>
 									<ref>24</ref>
 								</aufruf>
 								<undefiniert/>
 							</aufruf>
-							<aufruf ref="181">
-								<aufruf ref="150">
+							<aufruf ref="182">
+								<aufruf ref="151">
 									<ref>27</ref>
 									<aufruf ref="97"/>
 								</aufruf>
 								<aufruf ref="99">
-									<aufruf ref="160">
-										<aufruf ref="157">
+									<aufruf ref="161">
+										<aufruf ref="158">
 											<ref>90</ref>
 										</aufruf>
 										<zahl>4</zahl>
@@ -2163,15 +2263,15 @@
 								</aufruf>
 								<undefiniert/>
 							</aufruf>
-							<aufruf ref="181">
-								<aufruf ref="150">
+							<aufruf ref="182">
+								<aufruf ref="151">
 									<ref>25</ref>
 									<aufruf ref="97"/>
 								</aufruf>
-								<aufruf ref="172">
+								<aufruf ref="173">
 									<aufruf ref="99">
-										<aufruf ref="182">
-											<aufruf ref="157">
+										<aufruf ref="183">
+											<aufruf ref="158">
 												<ref>85</ref>
 											</aufruf>
 											<zahl>100</zahl>
@@ -2179,9 +2279,9 @@
 									</aufruf>
 									<text>.</text>
 									<aufruf ref="99">
-										<aufruf ref="182">
-											<aufruf ref="183">
-												<aufruf ref="157">
+										<aufruf ref="183">
+											<aufruf ref="184">
+												<aufruf ref="158">
 													<ref>85</ref>
 												</aufruf>
 												<zahl>100</zahl>
@@ -2190,9 +2290,9 @@
 										</aufruf>
 									</aufruf>
 									<aufruf ref="99">
-										<aufruf ref="183">
-											<aufruf ref="183">
-												<aufruf ref="157">
+										<aufruf ref="184">
+											<aufruf ref="184">
+												<aufruf ref="158">
 													<ref>85</ref>
 												</aufruf>
 												<zahl>100</zahl>
@@ -2204,14 +2304,14 @@
 								</aufruf>
 								<undefiniert/>
 							</aufruf>
-							<aufruf ref="181">
-								<aufruf ref="150">
+							<aufruf ref="182">
+								<aufruf ref="151">
 									<ref>26</ref>
 									<aufruf ref="97"/>
 								</aufruf>
-								<aufruf ref="172">
+								<aufruf ref="173">
 									<aufruf ref="99">
-										<aufruf ref="157">
+										<aufruf ref="158">
 											<ref>87</ref>
 										</aufruf>
 									</aufruf>
@@ -2219,39 +2319,39 @@
 								</aufruf>
 								<undefiniert/>
 							</aufruf>
-							<aufruf ref="181">
-								<aufruf ref="150">
+							<aufruf ref="182">
+								<aufruf ref="151">
 									<ref>30</ref>
 									<aufruf ref="97"/>
 								</aufruf>
-								<aufruf ref="116">
-									<aufruf ref="157">
+								<aufruf ref="117">
+									<aufruf ref="158">
 										<ref>83</ref>
 									</aufruf>
 									<ref>30</ref>
 								</aufruf>
 								<undefiniert/>
 							</aufruf>
-							<aufruf ref="181">
-								<aufruf ref="150">
+							<aufruf ref="182">
+								<aufruf ref="151">
 									<ref>31</ref>
 									<aufruf ref="97"/>
 								</aufruf>
-								<aufruf ref="116">
-									<aufruf ref="157">
+								<aufruf ref="117">
+									<aufruf ref="158">
 										<ref>95</ref>
 									</aufruf>
 									<ref>31</ref>
 								</aufruf>
 								<undefiniert/>
 							</aufruf>
-							<aufruf ref="181">
-								<aufruf ref="150">
+							<aufruf ref="182">
+								<aufruf ref="151">
 									<ref>32</ref>
 									<aufruf ref="97"/>
 								</aufruf>
-								<aufruf ref="116">
-									<aufruf ref="157">
+								<aufruf ref="117">
+									<aufruf ref="158">
 										<ref>92</ref>
 									</aufruf>
 									<ref>32</ref>
@@ -2262,19 +2362,19 @@
 					</item>
 					<item>
 						<name>Sequenz-AK-HUSST-ViaAuswahlAnzeige</name>
-						<aufruf ref="128">
-							<aufruf ref="169">
+						<aufruf ref="129">
+							<aufruf ref="170">
 								<ref>35</ref>
-								<aufruf ref="179"/>
+								<aufruf ref="180"/>
 							</aufruf>
 						</aufruf>
 					</item>
 					<item>
 						<name>Sequenz-AK-HUSST-ZielTarifpunktAnzeige</name>
-						<aufruf ref="128">
-							<aufruf ref="169">
+						<aufruf ref="129">
+							<aufruf ref="170">
 								<ref>34</ref>
-								<aufruf ref="180"/>
+								<aufruf ref="181"/>
 							</aufruf>
 						</aufruf>
 					</item>
@@ -2284,34 +2384,34 @@
 					</item>
 					<item>
 						<name>SetzePreisparameter</name>
-						<aufruf ref="127">
-							<aufruf ref="171">
+						<aufruf ref="128">
+							<aufruf ref="172">
 								<ref>83</ref>
-								<aufruf ref="113">
-									<aufruf ref="160">
-										<aufruf ref="157">
+								<aufruf ref="114">
+									<aufruf ref="161">
+										<aufruf ref="158">
 											<ref>90</ref>
 										</aufruf>
 										<zahl>1</zahl>
 									</aufruf>
 								</aufruf>
 							</aufruf>
-							<aufruf ref="171">
+							<aufruf ref="172">
 								<ref>95</ref>
-								<aufruf ref="113">
-									<aufruf ref="160">
-										<aufruf ref="157">
+								<aufruf ref="114">
+									<aufruf ref="161">
+										<aufruf ref="158">
 											<ref>90</ref>
 										</aufruf>
 										<zahl>2</zahl>
 									</aufruf>
 								</aufruf>
 							</aufruf>
-							<aufruf ref="171">
+							<aufruf ref="172">
 								<ref>92</ref>
-								<aufruf ref="122">
-									<aufruf ref="160">
-										<aufruf ref="157">
+								<aufruf ref="123">
+									<aufruf ref="161">
+										<aufruf ref="158">
 											<ref>90</ref>
 										</aufruf>
 										<zahl>3</zahl>
@@ -2342,22 +2442,22 @@
 					</item>
 					<item>
 						<name>wandleSortengruppenToAnzeigeDaten</name>
-						<aufruf ref="169">
+						<aufruf ref="170">
 							<ref>36</ref>
-							<aufruf ref="163">
-								<aufruf ref="157">
+							<aufruf ref="164">
+								<aufruf ref="158">
 									<ref>88</ref>
 								</aufruf>
-								<ref>152</ref>
+								<ref>153</ref>
 							</aufruf>
 						</aufruf>
 					</item>
 					<item>
 						<name>wandleStartTarifpunkteToAnzeigeDaten</name>
-						<aufruf ref="169">
+						<aufruf ref="170">
 							<ref>33</ref>
-							<aufruf ref="178">
-								<aufruf ref="157">
+							<aufruf ref="179">
+								<aufruf ref="158">
 									<ref>81</ref>
 								</aufruf>
 							</aufruf>
@@ -2365,29 +2465,29 @@
 					</item>
 					<item>
 						<name>wandleTarifpunkteToAnzeigeDaten</name>
-						<aufruf ref="163">
+						<aufruf ref="164">
 							<param>1</param>
-							<ref>153</ref>
+							<ref>154</ref>
 						</aufruf>
 					</item>
 					<item>
 						<name>wandleViasToAnzeigeDaten</name>
-						<aufruf ref="169">
+						<aufruf ref="170">
 							<ref>35</ref>
-							<aufruf ref="163">
-								<aufruf ref="157">
+							<aufruf ref="164">
+								<aufruf ref="158">
 									<ref>91</ref>
 								</aufruf>
-								<ref>154</ref>
+								<ref>155</ref>
 							</aufruf>
 						</aufruf>
 					</item>
 					<item>
 						<name>wandleZielTarifpunkteToAnzeigeDaten</name>
-						<aufruf ref="169">
+						<aufruf ref="170">
 							<ref>34</ref>
-							<aufruf ref="178">
-								<aufruf ref="157">
+							<aufruf ref="179">
+								<aufruf ref="158">
 									<ref>93</ref>
 								</aufruf>
 							</aufruf>
@@ -2410,15 +2510,15 @@
 						<nr>3218</nr>
 					</item>
 				</funktion-pool>
-				<ausnahme-pool key="185"/>
-				<auswahldaten-pool key="186"/>
-				<auswahloption-pool key="187"/>
-				<ausgangsdaten-pool key="188">
+				<ausnahme-pool key="186"/>
+				<auswahldaten-pool key="187"/>
+				<auswahloption-pool key="188"/>
+				<ausgangsdaten-pool key="189">
 					<item>
 						<name>AD-StartTarifpunktAnzeige</name>
 						<sequenz-matrix>
 							<sequenz ref="42">
-								<ref>165</ref>
+								<ref>166</ref>
 							</sequenz>
 						</sequenz-matrix>
 					</item>
@@ -2426,7 +2526,7 @@
 						<name>AD-TicketDruck</name>
 						<sequenz-matrix>
 							<sequenz ref="44">
-								<ref>166</ref>
+								<ref>167</ref>
 							</sequenz>
 						</sequenz-matrix>
 					</item>
@@ -2434,7 +2534,7 @@
 						<name>AD-VerkaufsSortengrupperelationAnzeige</name>
 						<sequenz-matrix>
 							<sequenz ref="40">
-								<ref>164</ref>
+								<ref>165</ref>
 							</sequenz>
 						</sequenz-matrix>
 					</item>
@@ -2442,7 +2542,7 @@
 						<name>AD-ViaAuswahlAnzeige</name>
 						<sequenz-matrix>
 							<sequenz ref="45">
-								<ref>167</ref>
+								<ref>168</ref>
 							</sequenz>
 						</sequenz-matrix>
 					</item>
@@ -2450,12 +2550,12 @@
 						<name>AD-ZielTarifpunktAnzeige</name>
 						<sequenz-matrix>
 							<sequenz ref="42">
-								<ref>168</ref>
+								<ref>169</ref>
 							</sequenz>
 						</sequenz-matrix>
 					</item>
 				</ausgangsdaten-pool>
-				<ausgangsdatenfamilie-pool key="193"/>
+				<ausgangsdatenfamilie-pool key="194"/>
 				<organisation-pool>
 					<item>
 						<nr>1</nr>
@@ -2465,8 +2565,8 @@
 						</anforderung>
 					</item>
 				</organisation-pool>
-				<efmprodukt-pool key="194"/>
-				<tarifprodukt-pool key="195">
+				<efmprodukt-pool key="195"/>
+				<tarifprodukt-pool key="196">
 					<item>
 						<nr>1001</nr>
 						<name>Einzelfahrschein</name>
@@ -2516,12 +2616,12 @@
 						</ungueltigkeitszeitpunktsausnahme-table>
 						<preisdaten-table>
 							<waehrung>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
 							</waehrung>
 							<bezahlartbedingung/>
 							<zahlungsintervallbedingung/>
@@ -2530,12 +2630,12 @@
 							<zeitraumbedingung/>
 							<tarifpunktbedingung/>
 							<bewertungsbedingung>
-								<ref>303</ref>
 								<ref>304</ref>
 								<ref>305</ref>
 								<ref>306</ref>
 								<ref>307</ref>
 								<ref>308</ref>
+								<ref>309</ref>
 							</bewertungsbedingung>
 							<verkehrsmittellinienbedingung/>
 							<mitnahmebedingung/>
@@ -2615,8 +2715,8 @@
 						</nachfolgeausnahme-table>
 						<efmprodukt/>
 						<identifikation>
-							<ref>206</ref>
-							<ref>208</ref>
+							<ref>207</ref>
+							<ref>209</ref>
 						</identifikation>
 						<kontingentierung/>
 						<preisanpassung>false</preisanpassung>
@@ -2671,12 +2771,12 @@
 						</ungueltigkeitszeitpunktsausnahme-table>
 						<preisdaten-table>
 							<waehrung>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
 							</waehrung>
 							<bezahlartbedingung/>
 							<zahlungsintervallbedingung/>
@@ -2685,12 +2785,12 @@
 							<zeitraumbedingung/>
 							<tarifpunktbedingung/>
 							<bewertungsbedingung>
-								<ref>303</ref>
 								<ref>304</ref>
 								<ref>305</ref>
 								<ref>306</ref>
 								<ref>307</ref>
 								<ref>308</ref>
+								<ref>309</ref>
 							</bewertungsbedingung>
 							<verkehrsmittellinienbedingung/>
 							<mitnahmebedingung/>
@@ -2770,8 +2870,8 @@
 						</nachfolgeausnahme-table>
 						<efmprodukt/>
 						<identifikation>
-							<ref>206</ref>
-							<ref>208</ref>
+							<ref>207</ref>
+							<ref>209</ref>
 						</identifikation>
 						<kontingentierung/>
 						<preisanpassung>false</preisanpassung>
@@ -2826,12 +2926,12 @@
 						</ungueltigkeitszeitpunktsausnahme-table>
 						<preisdaten-table>
 							<waehrung>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
 							</waehrung>
 							<bezahlartbedingung/>
 							<zahlungsintervallbedingung/>
@@ -2840,12 +2940,12 @@
 							<zeitraumbedingung/>
 							<tarifpunktbedingung/>
 							<bewertungsbedingung>
-								<ref>303</ref>
 								<ref>304</ref>
 								<ref>305</ref>
 								<ref>306</ref>
 								<ref>307</ref>
 								<ref>308</ref>
+								<ref>309</ref>
 							</bewertungsbedingung>
 							<verkehrsmittellinienbedingung/>
 							<mitnahmebedingung/>
@@ -2925,8 +3025,8 @@
 						</nachfolgeausnahme-table>
 						<efmprodukt/>
 						<identifikation>
-							<ref>207</ref>
 							<ref>208</ref>
+							<ref>209</ref>
 						</identifikation>
 						<kontingentierung/>
 						<preisanpassung>false</preisanpassung>
@@ -2981,12 +3081,12 @@
 						</ungueltigkeitszeitpunktsausnahme-table>
 						<preisdaten-table>
 							<waehrung>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
-								<ref>293</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
+								<ref>294</ref>
 							</waehrung>
 							<bezahlartbedingung/>
 							<zahlungsintervallbedingung/>
@@ -2995,12 +3095,12 @@
 							<zeitraumbedingung/>
 							<tarifpunktbedingung/>
 							<bewertungsbedingung>
-								<ref>303</ref>
 								<ref>304</ref>
 								<ref>305</ref>
 								<ref>306</ref>
 								<ref>307</ref>
 								<ref>308</ref>
+								<ref>309</ref>
 							</bewertungsbedingung>
 							<verkehrsmittellinienbedingung/>
 							<mitnahmebedingung/>
@@ -3080,24 +3180,24 @@
 						</nachfolgeausnahme-table>
 						<efmprodukt/>
 						<identifikation>
-							<ref>207</ref>
 							<ref>208</ref>
+							<ref>209</ref>
 						</identifikation>
 						<kontingentierung/>
 						<preisanpassung>false</preisanpassung>
 						<extNr>1004</extNr>
 					</item>
 				</tarifprodukt-pool>
-				<fremdprodukt-pool key="199"/>
-				<produktgruppe-pool key="200"/>
-				<kontingentierung-pool key="201"/>
-				<nachfolgekriterium-pool key="202"/>
-				<abhaengigkeitskriterium-pool key="203"/>
-				<identifikationsparameter-pool key="204">
+				<fremdprodukt-pool key="200"/>
+				<produktgruppe-pool key="201"/>
+				<kontingentierung-pool key="202"/>
+				<nachfolgekriterium-pool key="203"/>
+				<abhaengigkeitskriterium-pool key="204"/>
+				<identifikationsparameter-pool key="205">
 					<item>
 						<nr>100</nr>
 						<name>Sortengruppe</name>
-						<wert-pool key="208">
+						<wert-pool key="209">
 							<item>
 								<nr>1</nr>
 								<name>Verkaufssortengruppe Relation</name>
@@ -3108,7 +3208,7 @@
 					<item>
 						<nr>101</nr>
 						<name>Tarifart</name>
-						<wert-pool key="206">
+						<wert-pool key="207">
 							<item>
 								<nr>1</nr>
 								<name>Barfahrausweise</name>
@@ -3122,7 +3222,7 @@
 						</wert-pool>
 					</item>
 				</identifikationsparameter-pool>
-				<tarifpunkt-pool key="209">
+				<tarifpunkt-pool key="210">
 					<item>
 						<nr>100</nr>
 						<name>Wabe A (HUSST Tarifpunkt)</name>
@@ -3778,9 +3878,9 @@
 						<ortsbezug/>
 					</item>
 				</tarifpunkt-pool>
-				<tarifpunktgruppe-pool key="275"/>
-				<tarifpunktreferenz-pool key="276"/>
-				<zuordnungstyp-pool key="277">
+				<tarifpunktgruppe-pool key="276"/>
+				<tarifpunktreferenz-pool key="277"/>
+				<zuordnungstyp-pool key="278">
 					<item>
 						<name>HUSST-Ortspunkt-zu-Tarifrelevanterpunkt-mit-OTPTyp-1-und-Bediengebiet-1</name>
 					</item>
@@ -3792,11 +3892,8 @@
 					</item>
 				</zuordnungstyp-pool>
 				<zuordnungsdaten-matrix>
-					<typ ref="277">
-						<bezug ref="291">
-							<von ref="215">
-								<zu>257</zu>
-							</von>
+					<typ ref="278">
+						<bezug ref="292">
 							<von ref="216">
 								<zu>258</zu>
 							</von>
@@ -3848,13 +3945,13 @@
 							<von ref="232">
 								<zu>274</zu>
 							</von>
+							<von ref="233">
+								<zu>275</zu>
+							</von>
 						</bezug>
 					</typ>
-					<typ ref="278">
-						<bezug ref="291">
-							<von ref="215">
-								<zu>239</zu>
-							</von>
+					<typ ref="279">
+						<bezug ref="292">
 							<von ref="216">
 								<zu>240</zu>
 							</von>
@@ -3906,123 +4003,126 @@
 							<von ref="232">
 								<zu>256</zu>
 							</von>
+							<von ref="233">
+								<zu>257</zu>
+							</von>
 						</bezug>
 					</typ>
-					<typ ref="279">
-						<bezug ref="291">
-							<von ref="239">
-								<zu>233</zu>
-							</von>
+					<typ ref="280">
+						<bezug ref="292">
 							<von ref="240">
-								<zu>233</zu>
+								<zu>234</zu>
 							</von>
 							<von ref="241">
-								<zu>233</zu>
+								<zu>234</zu>
 							</von>
 							<von ref="242">
 								<zu>234</zu>
 							</von>
 							<von ref="243">
-								<zu>234</zu>
+								<zu>235</zu>
 							</von>
 							<von ref="244">
-								<zu>234</zu>
+								<zu>235</zu>
 							</von>
 							<von ref="245">
 								<zu>235</zu>
 							</von>
 							<von ref="246">
-								<zu>235</zu>
+								<zu>236</zu>
 							</von>
 							<von ref="247">
-								<zu>235</zu>
+								<zu>236</zu>
 							</von>
 							<von ref="248">
 								<zu>236</zu>
 							</von>
 							<von ref="249">
-								<zu>236</zu>
+								<zu>237</zu>
 							</von>
 							<von ref="250">
-								<zu>236</zu>
+								<zu>237</zu>
 							</von>
 							<von ref="251">
 								<zu>237</zu>
 							</von>
 							<von ref="252">
-								<zu>237</zu>
+								<zu>238</zu>
 							</von>
 							<von ref="253">
-								<zu>237</zu>
+								<zu>238</zu>
 							</von>
 							<von ref="254">
 								<zu>238</zu>
 							</von>
 							<von ref="255">
-								<zu>238</zu>
+								<zu>239</zu>
 							</von>
 							<von ref="256">
-								<zu>238</zu>
+								<zu>239</zu>
 							</von>
 							<von ref="257">
-								<zu>233</zu>
+								<zu>239</zu>
 							</von>
 							<von ref="258">
-								<zu>233</zu>
+								<zu>234</zu>
 							</von>
 							<von ref="259">
-								<zu>233</zu>
+								<zu>234</zu>
 							</von>
 							<von ref="260">
 								<zu>234</zu>
 							</von>
 							<von ref="261">
-								<zu>234</zu>
+								<zu>235</zu>
 							</von>
 							<von ref="262">
-								<zu>234</zu>
+								<zu>235</zu>
 							</von>
 							<von ref="263">
 								<zu>235</zu>
 							</von>
 							<von ref="264">
-								<zu>235</zu>
+								<zu>236</zu>
 							</von>
 							<von ref="265">
-								<zu>235</zu>
+								<zu>236</zu>
 							</von>
 							<von ref="266">
 								<zu>236</zu>
 							</von>
 							<von ref="267">
-								<zu>236</zu>
+								<zu>237</zu>
 							</von>
 							<von ref="268">
-								<zu>236</zu>
+								<zu>237</zu>
 							</von>
 							<von ref="269">
 								<zu>237</zu>
 							</von>
 							<von ref="270">
-								<zu>237</zu>
+								<zu>238</zu>
 							</von>
 							<von ref="271">
-								<zu>237</zu>
+								<zu>238</zu>
 							</von>
 							<von ref="272">
 								<zu>238</zu>
 							</von>
 							<von ref="273">
-								<zu>238</zu>
+								<zu>239</zu>
 							</von>
 							<von ref="274">
-								<zu>238</zu>
+								<zu>239</zu>
+							</von>
+							<von ref="275">
+								<zu>239</zu>
 							</von>
 						</bezug>
 					</typ>
 				</zuordnungsdaten-matrix>
 				<zuordnungsausnahme-matrix/>
-				<wegevariante-pool key="280">
+				<wegevariante-pool key="281">
 					<item>
 						<nr>0</nr>
 						<name>Alle Wege (kein Via)</name>
@@ -4040,12 +4140,12 @@
 						<tarifpunktfolge-pool/>
 					</item>
 				</wegevariante-pool>
-				<bewertungstyp-pool key="282">
+				<bewertungstyp-pool key="283">
 					<item>
 						<name>Preisstufe</name>
 					</item>
 				</bewertungstyp-pool>
-				<bewertungsdaten-pool key="283">
+				<bewertungsdaten-pool key="284">
 					<item>
 						<name>PST1</name>
 						<wert>
@@ -4090,122 +4190,122 @@
 					</item>
 				</bewertungsdaten-pool>
 				<bewertungsdaten-matrix>
-					<typ ref="282">
-						<bezug ref="291">
-							<von ref="209">
-								<nach ref="209">
-									<ueber ref="280">283</ueber>
-									<ueber ref="281">284</ueber>
-								</nach>
-								<nach ref="210">
-									<ueber ref="280">284</ueber>
-								</nach>
-								<nach ref="211">
-									<ueber ref="280">285</ueber>
-								</nach>
-								<nach ref="212">
-									<ueber ref="280">286</ueber>
-								</nach>
-								<nach ref="213">
-									<ueber ref="280">287</ueber>
-								</nach>
-								<nach ref="214">
-									<ueber ref="280">288</ueber>
-								</nach>
-							</von>
+					<typ ref="283">
+						<bezug ref="292">
 							<von ref="210">
 								<nach ref="210">
-									<ueber ref="280">283</ueber>
+									<ueber ref="281">284</ueber>
+									<ueber ref="282">285</ueber>
 								</nach>
 								<nach ref="211">
-									<ueber ref="280">284</ueber>
+									<ueber ref="281">285</ueber>
 								</nach>
 								<nach ref="212">
-									<ueber ref="280">283</ueber>
+									<ueber ref="281">286</ueber>
 								</nach>
 								<nach ref="213">
-									<ueber ref="280">285</ueber>
+									<ueber ref="281">287</ueber>
 								</nach>
 								<nach ref="214">
-									<ueber ref="280">286</ueber>
+									<ueber ref="281">288</ueber>
+								</nach>
+								<nach ref="215">
+									<ueber ref="281">289</ueber>
 								</nach>
 							</von>
 							<von ref="211">
 								<nach ref="211">
-									<ueber ref="280">283</ueber>
+									<ueber ref="281">284</ueber>
 								</nach>
 								<nach ref="212">
-									<ueber ref="280">284</ueber>
+									<ueber ref="281">285</ueber>
 								</nach>
 								<nach ref="213">
-									<ueber ref="280">285</ueber>
+									<ueber ref="281">284</ueber>
 								</nach>
 								<nach ref="214">
-									<ueber ref="280">286</ueber>
+									<ueber ref="281">286</ueber>
+								</nach>
+								<nach ref="215">
+									<ueber ref="281">287</ueber>
 								</nach>
 							</von>
 							<von ref="212">
 								<nach ref="212">
-									<ueber ref="280">283</ueber>
+									<ueber ref="281">284</ueber>
 								</nach>
 								<nach ref="213">
-									<ueber ref="280">284</ueber>
+									<ueber ref="281">285</ueber>
 								</nach>
 								<nach ref="214">
-									<ueber ref="280">285</ueber>
+									<ueber ref="281">286</ueber>
+								</nach>
+								<nach ref="215">
+									<ueber ref="281">287</ueber>
 								</nach>
 							</von>
 							<von ref="213">
 								<nach ref="213">
-									<ueber ref="280">283</ueber>
+									<ueber ref="281">284</ueber>
 								</nach>
 								<nach ref="214">
-									<ueber ref="280">284</ueber>
+									<ueber ref="281">285</ueber>
+								</nach>
+								<nach ref="215">
+									<ueber ref="281">286</ueber>
 								</nach>
 							</von>
 							<von ref="214">
 								<nach ref="214">
-									<ueber ref="280">283</ueber>
+									<ueber ref="281">284</ueber>
+								</nach>
+								<nach ref="215">
+									<ueber ref="281">285</ueber>
+								</nach>
+							</von>
+							<von ref="215">
+								<nach ref="215">
+									<ueber ref="281">284</ueber>
 								</nach>
 							</von>
 						</bezug>
 					</typ>
 				</bewertungsdaten-matrix>
 				<bewertungsausnahme-matrix/>
-				<linie-pool key="289"/>
-				<verkehrsmitteltyp-pool key="290"/>
-				<verkehrsmittellinienbezug-pool key="291">
+				<linie-pool key="290"/>
+				<verkehrsmitteltyp-pool key="291"/>
+				<verkehrsmittellinienbezug-pool key="292">
 					<item>
 						<name>Alle Verkehrsmittel</name>
 					</item>
 				</verkehrsmittellinienbezug-pool>
-				<bezahlart-pool key="292"/>
-				<waehrung-pool key="293">
+				<bezahlart-pool key="293"/>
+				<waehrung-pool key="294">
 					<item>
 						<nr>10536</nr>
 						<name>Euro-Cent</name>
 						<text-matrix/>
 					</item>
 				</waehrung-pool>
-				<zahlungsintervall-pool key="294"/>
-				<mitnahmetyp-pool key="295"/>
-				<rabattmedientyp-pool key="296"/>
-				<modulkontext-pool key="297">
+				<zahlungsintervall-pool key="295"/>
+				<mitnahmetyp-pool key="296"/>
+				<rabattmedientyp-pool key="297"/>
+				<modulkontext-pool key="298">
 					<item>
 						<nr>1</nr>
 						<name>HUSST Endgerät (Standard) Modulkontext</name>
 					</item>
 				</modulkontext-pool>
-				<spezialbedingung-pool key="298"/>
-				<tagesbedingung-pool key="299"/>
-				<tageszeitbedingung-pool key="300"/>
-				<zeitraumbedingung-pool key="301"/>
-				<tarifpunktbedingung-pool key="302"/>
-				<bewertungsbedingung-pool key="303">
+				<spezialbedingung-pool key="299"/>
+				<tagesbedingung-pool key="300"/>
+				<tageszeitbedingung-pool key="301"/>
+				<zeitraumbedingung-pool key="302"/>
+				<tarifpunktbedingung-pool key="303"/>
+				<bewertungsbedingung-pool key="304">
 					<item>
 						<name>Bewertungsbedingung Preisstufe 1</name>
 						<bewertungstyp>
-							<ref>282</ref>
+							<ref>283</ref>
 						</bewertungstyp>
 						<werte>
 							<zahl>1</zahl>
@@ -4214,7 +4314,7 @@
 					<item>
 						<name>Bewertungsbedingung Preisstufe 2</name>
 						<bewertungstyp>
-							<ref>282</ref>
+							<ref>283</ref>
 						</bewertungstyp>
 						<werte>
 							<zahl>2</zahl>
@@ -4223,7 +4323,7 @@
 					<item>
 						<name>Bewertungsbedingung Preisstufe 3</name>
 						<bewertungstyp>
-							<ref>282</ref>
+							<ref>283</ref>
 						</bewertungstyp>
 						<werte>
 							<zahl>3</zahl>
@@ -4232,7 +4332,7 @@
 					<item>
 						<name>Bewertungsbedingung Preisstufe 4</name>
 						<bewertungstyp>
-							<ref>282</ref>
+							<ref>283</ref>
 						</bewertungstyp>
 						<werte>
 							<zahl>4</zahl>
@@ -4241,7 +4341,7 @@
 					<item>
 						<name>Bewertungsbedingung Preisstufe 5</name>
 						<bewertungstyp>
-							<ref>282</ref>
+							<ref>283</ref>
 						</bewertungstyp>
 						<werte>
 							<zahl>5</zahl>
@@ -4250,32 +4350,32 @@
 					<item>
 						<name>Bewertungsbedingung Preisstufe 6</name>
 						<bewertungstyp>
-							<ref>282</ref>
+							<ref>283</ref>
 						</bewertungstyp>
 						<werte>
 							<zahl>6</zahl>
 						</werte>
 					</item>
 				</bewertungsbedingung-pool>
-				<geosegmentbedingung-pool key="309"/>
-				<verkehrsmittellinienbedingung-pool key="310"/>
-				<bezahlartbedingung-pool key="311"/>
-				<zahlungsintervallbedingung-pool key="312"/>
-				<mitnahmebedingung-pool key="313"/>
-				<rabattmedienbedingung-pool key="314"/>
-				<modulkontextbedingung-pool key="315">
+				<geosegmentbedingung-pool key="310"/>
+				<verkehrsmittellinienbedingung-pool key="311"/>
+				<bezahlartbedingung-pool key="312"/>
+				<zahlungsintervallbedingung-pool key="313"/>
+				<mitnahmebedingung-pool key="314"/>
+				<rabattmedienbedingung-pool key="315"/>
+				<modulkontextbedingung-pool key="316">
 					<item>
 						<name>HUSST Endgerät (Standard) Modulkontextbedingung</name>
 						<element>
-							<ref>297</ref>
+							<ref>298</ref>
 						</element>
 					</item>
 				</modulkontextbedingung-pool>
-				<bifainterpretation-pool key="316"/>
-				<nummerninterpretation-pool key="317"/>
-				<bitleisteninterpretation-pool key="318"/>
-				<raumnummerninterpretation-pool key="319"/>
-				<schluessel-pool key="320"/>
+				<bifainterpretation-pool key="317"/>
+				<nummerninterpretation-pool key="318"/>
+				<bitleisteninterpretation-pool key="319"/>
+				<raumnummerninterpretation-pool key="320"/>
+				<schluessel-pool key="321"/>
 				<kommentar-pool/>
 				<signatur/>
 				<annotation/>

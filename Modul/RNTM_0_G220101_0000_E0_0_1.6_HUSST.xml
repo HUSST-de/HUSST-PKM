@@ -7,7 +7,7 @@
 		<modulstatus>1</modulstatus>
 		<modulspezifikation>1.6.0</modulspezifikation>
 		<modulnamenszusatz>HUSST</modulnamenszusatz>
-		<speicherzeitpunkt>2022-09-29T09:24:15+02:00</speicherzeitpunkt>
+		<speicherzeitpunkt>2022-10-06T17:36:31+02:00</speicherzeitpunkt>
 		<bearbeiter/>
 		<freigeber/>
 		<bemerkung/>
@@ -101,7 +101,7 @@
 					<modulstatus>1</modulstatus>
 					<modulspezifikation>1.6.0</modulspezifikation>
 					<modulnamenszusatz/>
-					<speicherzeitpunkt>2022-09-29T09:24:15+02:00</speicherzeitpunkt>
+					<speicherzeitpunkt>2022-10-06T17:36:31+02:00</speicherzeitpunkt>
 					<bearbeiter>HUSST2PKM</bearbeiter>
 					<freigeber>HUSST2PKM</freigeber>
 					<bemerkung>Automatische Konvertierung aus HUSST-Daten</bemerkung>
@@ -3521,7 +3521,7 @@
 						<nr>3002101</nr>
 						<name>101 (HUSST Tarifrelevanterpunkt #2101)</name>
 						<text-matrix>
-							<text ref="42">101</text>
+							<text ref="42">A Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3531,7 +3531,7 @@
 						<nr>3002102</nr>
 						<name>102 (HUSST Tarifrelevanterpunkt #2102)</name>
 						<text-matrix>
-							<text ref="42">102</text>
+							<text ref="42">A Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3541,7 +3541,7 @@
 						<nr>3002103</nr>
 						<name>103 (HUSST Tarifrelevanterpunkt #2103)</name>
 						<text-matrix>
-							<text ref="42">103</text>
+							<text ref="42">A Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3551,7 +3551,7 @@
 						<nr>3002201</nr>
 						<name>201 (HUSST Tarifrelevanterpunkt #2201)</name>
 						<text-matrix>
-							<text ref="42">201</text>
+							<text ref="42">B Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3561,7 +3561,7 @@
 						<nr>3002202</nr>
 						<name>202 (HUSST Tarifrelevanterpunkt #2202)</name>
 						<text-matrix>
-							<text ref="42">202</text>
+							<text ref="42">B Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3571,7 +3571,7 @@
 						<nr>3002203</nr>
 						<name>203 (HUSST Tarifrelevanterpunkt #2203)</name>
 						<text-matrix>
-							<text ref="42">203</text>
+							<text ref="42">B Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3581,7 +3581,7 @@
 						<nr>3002301</nr>
 						<name>301 (HUSST Tarifrelevanterpunkt #2301)</name>
 						<text-matrix>
-							<text ref="42">301</text>
+							<text ref="42">C Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3591,7 +3591,7 @@
 						<nr>3002302</nr>
 						<name>302 (HUSST Tarifrelevanterpunkt #2302)</name>
 						<text-matrix>
-							<text ref="42">302</text>
+							<text ref="42">C Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3601,7 +3601,7 @@
 						<nr>3002303</nr>
 						<name>303 (HUSST Tarifrelevanterpunkt #2303)</name>
 						<text-matrix>
-							<text ref="42">303</text>
+							<text ref="42">C Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3611,7 +3611,7 @@
 						<nr>3002401</nr>
 						<name>401 (HUSST Tarifrelevanterpunkt #2401)</name>
 						<text-matrix>
-							<text ref="42">401</text>
+							<text ref="42">D Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3621,7 +3621,7 @@
 						<nr>3002402</nr>
 						<name>402 (HUSST Tarifrelevanterpunkt #2402)</name>
 						<text-matrix>
-							<text ref="42">402</text>
+							<text ref="42">D Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3631,7 +3631,7 @@
 						<nr>3002403</nr>
 						<name>403 (HUSST Tarifrelevanterpunkt #2403)</name>
 						<text-matrix>
-							<text ref="42">403</text>
+							<text ref="42">D Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3641,7 +3641,7 @@
 						<nr>3002501</nr>
 						<name>501 (HUSST Tarifrelevanterpunkt #2501)</name>
 						<text-matrix>
-							<text ref="42">501</text>
+							<text ref="42">E Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3651,7 +3651,7 @@
 						<nr>3002502</nr>
 						<name>502 (HUSST Tarifrelevanterpunkt #2502)</name>
 						<text-matrix>
-							<text ref="42">502</text>
+							<text ref="42">E Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3661,7 +3661,7 @@
 						<nr>3002503</nr>
 						<name>503 (HUSST Tarifrelevanterpunkt #2503)</name>
 						<text-matrix>
-							<text ref="42">503</text>
+							<text ref="42">E Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3671,7 +3671,7 @@
 						<nr>3002601</nr>
 						<name>601 (HUSST Tarifrelevanterpunkt #2601)</name>
 						<text-matrix>
-							<text ref="42">601</text>
+							<text ref="42">F Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3681,7 +3681,7 @@
 						<nr>3002602</nr>
 						<name>602 (HUSST Tarifrelevanterpunkt #2602)</name>
 						<text-matrix>
-							<text ref="42">602</text>
+							<text ref="42">F Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3691,7 +3691,7 @@
 						<nr>3002603</nr>
 						<name>603 (HUSST Tarifrelevanterpunkt #2603)</name>
 						<text-matrix>
-							<text ref="42">603</text>
+							<text ref="42">F Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3701,7 +3701,7 @@
 						<nr>3009101</nr>
 						<name>101 (HUSST Tarifrelevanterpunkt #9101)</name>
 						<text-matrix>
-							<text ref="42">101</text>
+							<text ref="42">A Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3711,7 +3711,7 @@
 						<nr>3009102</nr>
 						<name>102 (HUSST Tarifrelevanterpunkt #9102)</name>
 						<text-matrix>
-							<text ref="42">102</text>
+							<text ref="42">A Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3721,7 +3721,7 @@
 						<nr>3009103</nr>
 						<name>103 (HUSST Tarifrelevanterpunkt #9103)</name>
 						<text-matrix>
-							<text ref="42">103</text>
+							<text ref="42">A Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3731,7 +3731,7 @@
 						<nr>3009201</nr>
 						<name>201 (HUSST Tarifrelevanterpunkt #9201)</name>
 						<text-matrix>
-							<text ref="42">201</text>
+							<text ref="42">B Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3741,7 +3741,7 @@
 						<nr>3009202</nr>
 						<name>202 (HUSST Tarifrelevanterpunkt #9202)</name>
 						<text-matrix>
-							<text ref="42">202</text>
+							<text ref="42">B Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3751,7 +3751,7 @@
 						<nr>3009203</nr>
 						<name>203 (HUSST Tarifrelevanterpunkt #9203)</name>
 						<text-matrix>
-							<text ref="42">203</text>
+							<text ref="42">B Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3761,7 +3761,7 @@
 						<nr>3009301</nr>
 						<name>301 (HUSST Tarifrelevanterpunkt #9301)</name>
 						<text-matrix>
-							<text ref="42">301</text>
+							<text ref="42">C Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3771,7 +3771,7 @@
 						<nr>3009302</nr>
 						<name>302 (HUSST Tarifrelevanterpunkt #9302)</name>
 						<text-matrix>
-							<text ref="42">302</text>
+							<text ref="42">C Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3781,7 +3781,7 @@
 						<nr>3009303</nr>
 						<name>303 (HUSST Tarifrelevanterpunkt #9303)</name>
 						<text-matrix>
-							<text ref="42">303</text>
+							<text ref="42">C Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3791,7 +3791,7 @@
 						<nr>3009401</nr>
 						<name>401 (HUSST Tarifrelevanterpunkt #9401)</name>
 						<text-matrix>
-							<text ref="42">401</text>
+							<text ref="42">D Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3801,7 +3801,7 @@
 						<nr>3009402</nr>
 						<name>402 (HUSST Tarifrelevanterpunkt #9402)</name>
 						<text-matrix>
-							<text ref="42">402</text>
+							<text ref="42">D Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3811,7 +3811,7 @@
 						<nr>3009403</nr>
 						<name>403 (HUSST Tarifrelevanterpunkt #9403)</name>
 						<text-matrix>
-							<text ref="42">403</text>
+							<text ref="42">D Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3821,7 +3821,7 @@
 						<nr>3009501</nr>
 						<name>501 (HUSST Tarifrelevanterpunkt #9501)</name>
 						<text-matrix>
-							<text ref="42">501</text>
+							<text ref="42">E Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3831,7 +3831,7 @@
 						<nr>3009502</nr>
 						<name>502 (HUSST Tarifrelevanterpunkt #9502)</name>
 						<text-matrix>
-							<text ref="42">502</text>
+							<text ref="42">E Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3841,7 +3841,7 @@
 						<nr>3009503</nr>
 						<name>503 (HUSST Tarifrelevanterpunkt #9503)</name>
 						<text-matrix>
-							<text ref="42">503</text>
+							<text ref="42">E Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3851,7 +3851,7 @@
 						<nr>3009601</nr>
 						<name>601 (HUSST Tarifrelevanterpunkt #9601)</name>
 						<text-matrix>
-							<text ref="42">601</text>
+							<text ref="42">F Bahnhof</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3861,7 +3861,7 @@
 						<nr>3009602</nr>
 						<name>602 (HUSST Tarifrelevanterpunkt #9602)</name>
 						<text-matrix>
-							<text ref="42">602</text>
+							<text ref="42">F Marktplatz</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>
@@ -3871,7 +3871,7 @@
 						<nr>3009603</nr>
 						<name>603 (HUSST Tarifrelevanterpunkt #9603)</name>
 						<text-matrix>
-							<text ref="42">603</text>
+							<text ref="42">F Rathaus</text>
 						</text-matrix>
 						<geobezug/>
 						<typ>Tarifrelevanterpunkt</typ>

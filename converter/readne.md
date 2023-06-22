@@ -1,5 +1,22 @@
 #HuSSt2PKM Converter ReadMe
 
+##Installation and prerequisite
+
+### Toolchain
+
+The following tools are required to compile and package the HuSSt2PKM converter
+
+- Java 11+ JDK
+- Maven 3.8+
+
+### Build
+
+Enter the following command to compile and package the converter
+
+	mvn clean package
+	
+You will then find the `husst2pkm.jar` in the `\target` directory.
+
 ##Usage
 
 	java -jar husst2pkm.jar -h <HuSSt db3 database> -p <path for pkm files>
